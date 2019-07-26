@@ -1,0 +1,5 @@
+package com.hsbc.inter.demos;
+
+public class QueueClient {
+
+}

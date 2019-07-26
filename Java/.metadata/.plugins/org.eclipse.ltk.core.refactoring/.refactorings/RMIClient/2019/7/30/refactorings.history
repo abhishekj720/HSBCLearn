@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;calcRMIClient/src&apos;&#x0D;&#x0A;- Original project: &apos;RMIClient&apos;&#x0D;&#x0A;- Destination element: &apos;calcRMIClient/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     RMIClient/src/com.hsbc.client&#x0D;&#x0A;     RMIClient/src/com.hsbc.service" description="Copy packages" destination="=calcRMIClient/src" element1="/src&lt;com.hsbc.client" element2="/src&lt;com.hsbc.service" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1564037864631" version="1.0"/>
+</session>

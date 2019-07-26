@@ -1,0 +1,11 @@
+package com.hsbc.bytes.demo;
+
+public class DisDemo {
+
+	public static void main(String[] args) throws IOException{
+
+		DataInputStream dis = new DataInputStream(System.in);
+		
+	}
+
+}

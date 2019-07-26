@@ -1,0 +1,9 @@
+package com.hsbc.service;
+
+import java.rmi.RemoteException;
+
+public interface IcalcService {
+
+	public double SI(int p,int r,int t) throws RemoteException;
+}
+

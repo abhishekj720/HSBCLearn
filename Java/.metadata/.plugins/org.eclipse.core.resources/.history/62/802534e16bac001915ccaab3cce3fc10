@@ -1,0 +1,10 @@
+package com.hsbc.demo;
+
+public class cmdLineInputDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

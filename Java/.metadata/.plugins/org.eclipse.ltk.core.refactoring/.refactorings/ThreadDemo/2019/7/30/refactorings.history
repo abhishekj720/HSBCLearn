@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;ThreadDemo/src/com.hsbc.join.demos&apos;&#x0D;&#x0A;- Original project: &apos;ThreadDemo&apos;&#x0D;&#x0A;- Destination element: &apos;ThreadDemo/src/com.hsbc.join.demos&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.hsbc.control.demos.AVGThread.java&#x0D;&#x0A;     com.hsbc.control.demos.MyUtil.java&#x0D;&#x0A;     com.hsbc.control.demos.SumThread.java" description="Copy compilation units" destination="/src&lt;com.hsbc.join.demos" element1="/src&lt;com.hsbc.control.demos{AVGThread.java" element2="/src&lt;com.hsbc.control.demos{MyUtil.java" element3="/src&lt;com.hsbc.control.demos{SumThread.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1563798016601" units="3" version="1.0"/>
+</session>

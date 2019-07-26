@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DaoFactory.java&apos; to &apos;MapAssignment/src/com.hsbc.dao&apos;&#x0D;&#x0A;- Original project: &apos;InterfaceRTPDemo2&apos;&#x0D;&#x0A;- Destination element: &apos;MapAssignment/src/com.hsbc.dao&apos;&#x0D;&#x0A;- Original element: &apos;com.hsbc.daop.DaoFactory.java&apos;" description="Copy compilation unit" destination="=MapAssignment/src&lt;com.hsbc.dao" element1="/src&lt;com.hsbc.daop{DaoFactory.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1564045654087" units="1" version="1.0"/>
+</session>

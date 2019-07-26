@@ -1,0 +1,17 @@
+package com.hsbc.client;
+
+import java.util.Scanner;
+
+import com.hsbc.dao.IEmpDao;
+
+public class EmpClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		String menu = null;
+		String opt = null;
+		IEmpDao emp = null;
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.hsbc.service;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+
+public interface ISimpleInterestService Remote {
+	
+   SI getEmployee(int eid)throws RemoteException; 
+	
+
+}
+
+

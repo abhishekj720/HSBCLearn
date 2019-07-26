@@ -1,0 +1,18 @@
+package com.hsbc.inter.demos;
+
+
+
+public class BuildStuff {
+2. public static void main(String[] args) {
+3. Boolean test = new Boolean(true);
+4. Integer x = 343;
+5. Integer y = new BuildStuff().go(test, x);
+6. System.out.println(y);
+7. }
+8. int go(Boolean b, int i) {
+9. if(b) return (i/7);
+10. return (i/49);
+11. }
+12.}
+
+			

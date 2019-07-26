@@ -1,0 +1,16 @@
+package com.hsbc.character.demos;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class ReaderDemo {
+	
+	public static void main(String[] args) throws IOException {
+		FileWriter fr = new FileWriter("abhi_yes\\myfile.txt");
+		BufferedWriter br = new BufferedWriter(fr);
+		String str = null;
+		while(str.)
+	}
+
+}

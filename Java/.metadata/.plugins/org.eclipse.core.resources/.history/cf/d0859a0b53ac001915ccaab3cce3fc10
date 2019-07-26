@@ -1,0 +1,49 @@
+package com.hsbc.bytes.demo;
+
+import java.io.Serializable;
+
+public class Emp implements Serializable{
+	
+	private static final long serialVersionUID = 1L; 
+	private int empId;
+	private String empName;
+	private String desig;
+	private double salary;
+	
+	public Emp() {
+		
+	}
+
+	public Emp(int empId, String empName, String desig,double salary) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.desig = desig;
+		this.salary = salary;
+	}
+
+	public int getEmpId() {
+		return empId;
+	}
+
+	public String getEmpName() {
+		return empName;
+	}
+
+	public String getDesig() {
+		return desig;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return empId+" "+empName+" "+desig+" "+salary;
+	}
+	
+	
+	
+}

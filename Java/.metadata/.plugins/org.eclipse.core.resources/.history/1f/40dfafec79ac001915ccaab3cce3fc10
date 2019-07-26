@@ -1,0 +1,6 @@
+package com.hsbc.control.demos;
+
+public class AVGThread extends Thread {
+	
+	
+}

@@ -1,0 +1,13 @@
+package com.hsbc.inter.demos;
+
+
+
+		public class test{
+			public static void main(String [] args) {
+			for(int x = 1; x < args.length; x++) {
+			System.out.print(args[0] + " ");
+			}
+			}
+			}
+
+			

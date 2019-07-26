@@ -1,0 +1,7 @@
+package com.hsbc.service;
+
+public interface IcalcSevice {
+
+	public double SI(int p,int r,int t) throws RemoteException;
+}
+

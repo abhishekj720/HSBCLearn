@@ -1,0 +1,24 @@
+package com.hsbc.bytes.demo;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class DeserializeDemo {
+
+	public static void main(String[] args) throws IOException{
+		// TODO Auto-generated method stub
+		
+		FileOutputStream fis = new FileOutputStream("emp.dat");
+		ObjectOutputStream oos = new ObjectOutputStream(fis);
+		
+		
+		
+		
+		
+		oos.close();
+		fis.close();
+
+	}
+
+}

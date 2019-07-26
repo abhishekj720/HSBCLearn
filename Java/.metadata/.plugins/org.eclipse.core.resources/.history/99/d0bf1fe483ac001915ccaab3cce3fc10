@@ -1,0 +1,13 @@
+package com.hsbc.threads.demos;
+
+public class ab {
+
+	
+	   public static void main(String[] args) {
+		 String ab = null;
+		   int a=10;
+		   a = ab.length();
+		   System.out.println(a);
+	    }
+
+}

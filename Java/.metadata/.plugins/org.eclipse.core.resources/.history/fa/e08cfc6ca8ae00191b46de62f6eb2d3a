@@ -1,0 +1,15 @@
+package com.hsbc.entity;
+
+import java.io.Serializable;
+
+public class SI implements Serializable{
+
+	public static void main(String[] args) {
+		
+		private int rate;
+		private int p;
+		private int time;
+		
+	}
+
+}

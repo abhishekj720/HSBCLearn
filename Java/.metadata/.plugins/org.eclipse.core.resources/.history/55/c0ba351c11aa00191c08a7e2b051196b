@@ -1,0 +1,46 @@
+package com.hsbc.dao;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.hsbc.entity.Emp;
+import com.hsbc.exceptions.IDException;
+
+public class EmpDaoImpl implements IEmpDao{
+	
+	private static Map<Integer,Emp> empDB = new HashMap<>();
+	
+	static {
+		empDB.put(1001,new Emp(1001,"ram",4500));
+		empDB.put(1002,new Emp(1002,"sram",3500));
+		empDB.put(1003,new Emp(1003,"aaram",5500));
+	}
+
+	@Override
+	public boolean addEmployee(Emp emp) throws IDException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Emp viewEmployee(int eid) throws IDException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Emp> viewEmployee() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean removeEmployee(int eid) throws IDException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
+
+}

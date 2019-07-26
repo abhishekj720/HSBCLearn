@@ -1,0 +1,11 @@
+package com.hsbc.inter.demos;
+
+import java.util.*;
+public class Quest {
+	public static void main(String[] args) {
+		12. Object obj = new int[] { 1, 2, 3 };
+		13. int[] someArray = (int[])obj;
+		14. for (int i : someArray) System.out.print(i + " ");
+		15. }
+
+}
