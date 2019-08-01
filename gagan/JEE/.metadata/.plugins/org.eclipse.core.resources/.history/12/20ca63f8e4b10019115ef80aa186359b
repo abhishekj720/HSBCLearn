@@ -1,0 +1,31 @@
+#gallery{
+	/* to start product from where other is ending in the same line */
+	display: flex;
+	width: 80%;
+	margin: 0px auto;
+	/* so that no scroll, after ending of a line of products next product starts from next line */
+	flex-wrap: wrap;
+}
+
+
+
+#gallery img{
+	height : 200px;
+	width: 200px;
+}
+
+
+#gallery div{
+	border : 1px solid red;
+	margin: 10px;
+	background-color: wheat;
+	padding : 10px;
+	border-radius: 5px;
+	box-shadow:5px 5px 15px black;
+	
+}
+
+.sprice{
+	color: gray;
+	text-decoration: line-through;
+}

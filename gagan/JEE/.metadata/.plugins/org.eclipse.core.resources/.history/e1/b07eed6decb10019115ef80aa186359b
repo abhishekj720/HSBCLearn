@@ -1,0 +1,37 @@
+#frm{
+	margin: 0px auto;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;
+}
+
+
+.title{
+		background-color: red;
+		color: white;
+		width:200px
+	
+}
+
+.data{
+	background-color: #4698c8
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

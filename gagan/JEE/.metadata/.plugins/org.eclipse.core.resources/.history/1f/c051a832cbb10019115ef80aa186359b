@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - Contact Us</title>
+</head>
+<body>
+
+<header>
+	<h1>Palmeto Mobiles</h1>
+</header>
+
+<article>
+	<h2>Contact Us</h2>
+	<div>
+	<img src = "images/contactus.jpg"/><br/>
+	</div>
+</article>
+<footer>
+	&copy;copyright reserved 2019
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>

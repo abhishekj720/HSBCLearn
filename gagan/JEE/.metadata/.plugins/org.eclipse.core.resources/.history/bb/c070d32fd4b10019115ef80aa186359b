@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - Catlog</title>
+<link href="hsbc.css" rel= "stylesheet">
+<link href = "images/logo.png" rel = "icon">
+
+
+</head>
+<body>
+
+<header>
+	Palmeto Mobiles
+</header>
+
+<article>
+	<h2>Palmeto Catlog</h2>
+	<table>
+	<thead>
+	<tr>
+	<th>Product ID</th>
+	<th>Product Name</th>
+	<th>Product Description</th>
+	<th>Product Price</th>
+	
+	</tr>
+	
+	</thead>
+	
+	
+	</table>
+	
+</article>
+<footer>
+	<div>&copy;copyright reserved 2019</div>
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>

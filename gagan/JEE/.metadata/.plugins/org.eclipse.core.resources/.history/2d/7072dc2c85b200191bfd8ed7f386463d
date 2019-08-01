@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Background Demo</title>
+<style>
+	body{
+		min-height:600px;
+		
+	}
+
+</style>
+
+
+
+</head>
+<body>
+
+<h1>Background Demo</h1>
+<hr/>
+
+
+
+
+
+</body>
+</html>

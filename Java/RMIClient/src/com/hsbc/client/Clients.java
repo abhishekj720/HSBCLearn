@@ -17,6 +17,7 @@ public class Clients {
 		Registry registry = LocateRegistry.getRegistry("localhost",1089);
 		IEmpService ser = (IEmpService) registry.lookup("empser");
 		System.out.println(ser.sayHello("ram"));
+		System.out.println(ser.getClass().getName());
 	}
 
 }

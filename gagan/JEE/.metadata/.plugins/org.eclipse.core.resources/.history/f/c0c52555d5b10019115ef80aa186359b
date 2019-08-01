@@ -1,0 +1,12 @@
+table{
+	margin:0px auto;  /* centering the block element */
+	border-collapse: collapse;  /*cellspacing - 0*/
+	
+}
+
+table img{
+	height: 75px;
+	width: 100px;
+	
+}
+

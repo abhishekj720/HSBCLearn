@@ -1,0 +1,26 @@
+nav {
+	margin: 0px auto;
+	width: 60%;
+	display: flex;
+	/* flex-wrap: wrap; */
+	
+}
+
+.btn{
+	margin: 10px;
+	text-align:center;
+}
+
+
+.lwidth{
+	width: 150px;
+	padding:10px;
+	background-color: red;
+	color:white;
+	border-radius :5px;
+	box-shadow: 5px 5px 5px black;
+}
+
+nav a{
+	text-decoration: none;
+}

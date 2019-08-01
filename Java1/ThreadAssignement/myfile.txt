@@ -1,0 +1,6 @@
+The JavaBeans component model relies on a number of rules and conventions bean developers must follow. 
+These conventions are not part of the JavaBeans API itself, but in many ways, they are more important to bean developers than the API itself.
+The conventions are sometimes referred to as designpatterns.
+The JavaBeans component model relies on a number of rules and conventions bean developers must follow. 
+These conventions are not part of the JavaBeans API itself, but in many ways, they are more important to bean developers than the API itself.
+The conventions are sometimes referred to as designpatterns.

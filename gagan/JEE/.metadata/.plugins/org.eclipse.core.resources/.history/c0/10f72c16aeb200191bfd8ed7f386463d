@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#div1 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+#div1 div{
+  text-align: left;
+  padding: 5px;
+  
+}
+
+#div1 div:hover{
+ background-color: cyan;
+  
+}
+.cls1{
+   color:gray;
+   
+}
+</style>
+<script>
+	var arr = [ "chennai", "calicut", "chandigarh", "badarpur", "bangalore",
+			"bhopal", "ambala", "allahabad", "amethi", "ahmedabad", "ajmer" , "badlapur"];
+	
+	
+    function display(val){
+    	var len = val.length;
+    	var html="";
+    	for(idx = 0; idx<arr.length; ++idx){
+    		if(arr[idx].substring(0,len)==val){
+    			html += "<div>" + arr[idx] + "</div>";
+    		}
+    	}
+    	
+    	document.getElementById("div1").innerHTML = html;
+    }
+	
+    
+</script>
+</head>
+<body>
+	<h1>Suggestion Demo</h1>
+	<hr />
+	<div align="center">
+		<input type="text" id="txt1" onkeyup="display(this.value)" />
+		<div id="div1"></div>
+	</div>
+</body>
+</html>
+
+

@@ -1,0 +1,47 @@
+#frm{
+	margin: 0px auto;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;
+}
+
+
+.title{
+		background-color: red;
+		color: white;
+		width:100px;
+		padding: 10px;
+	
+}
+
+.data{
+	background-color: #4698c8;
+	width: 200px;
+	padding:10 px;
+	margin-top: 10px;
+}
+
+.row{
+	display:flex;
+	
+}
+
+
+
+#frm2{
+	margin: 0px auto;
+	width:300px;
+}
+
+
+
+
+
+
+
+
+
+
+

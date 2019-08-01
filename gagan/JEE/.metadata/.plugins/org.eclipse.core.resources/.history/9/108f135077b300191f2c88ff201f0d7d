@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	#err{
+		color: red;
+		align:center;
+	}
+</style>
+
+<script>
+	/* url http://192.168.0.4:8080/AjaxDemo/AjaxEmpApp.html  */
+	/*    http://192.168.0.4:8080/AjaxDemo/AjaxEmpApp.html  */
+	/*     https://jsonplaceholder.typicode.com/users   */
+
+
+  
+  
+  
+  function search(){
+	  var id = document.getElementById("textid").value;
+	  if(isNaN(id)){
+		  alert("Eid is not a number");
+		  
+	  } else{
+		  doAjax(id);
+	  }
+  };
+  
+  function doAjax(id){
+	  var ajax = new XMLHttpRequest();
+	  var url = "http://localhost:8080/AjaxDemo/products.json";
+	  ajax.open("GET", url,true);
+	  ajax.send();
+	  ajax.onreadystatechange = function(){
+		  if(ajax.readyState == 4 && ajax.status ==200){
+			  var str = ajax.responseText;
+			  var json = JSON.parse(str);
+			  if(json[id] !== undefined){
+				  document.getElementById("tbl1").style.display="block";
+				  document.getElementById("err").style.display="none";
+				  
+				  document.getElementById("tpid").innerHTML = json[eid].pid;
+				  document.getElementById("tpname").innerHTML = json[eid].pname;
+				  document.getElementById("tprice").innerHTML = json[eid].price;
+				  
+				  
+				  
+			  } else{
+				  document.getElementById("tbl1").style.display="none";
+				  document.getElementById("err").style.display="block";
+				  document.getElementById("err").innerHTML="Product not found" + id;
+			  }
+			  
+		  }
+		  
+	  };  
+	  
+	  
+	    
+  }
+  
+</script>
+</head>
+<body>
+<h1 align = "center">Product Details</h1>
+<hr/>
+<div align="center">
+	Product ID<input type= "text" id = "textid"/>
+	<input type = "button" value= "search" onclick="search()"/>
+	</div>
+	<div id ="err"></div>
+   <table id = "tbl1" cellpadding="10" bgcolor="cyan" style="margin:0px auto; display:none; width:2 00px">
+	    <tr>
+			<td>Product ID</td>
+			<td id="tpid"></td>
+		</tr>
+		<tr>
+			<td>Product Name</td>
+			<td id="tpname"></td>
+		</tr>
+		<tr>
+			<td>Product Price</td>
+			<td id="tprice"></td>
+		</tr>
+		
+	</table>
+   
+</body>
+</html>

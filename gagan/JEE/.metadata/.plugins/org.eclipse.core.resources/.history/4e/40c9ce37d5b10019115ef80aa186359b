@@ -1,0 +1,12 @@
+table{
+	margin:0px auto;
+	border-collapse: collapse;
+	
+}
+
+table img{
+	height: 75px;
+	width: 100px;
+	
+}
+

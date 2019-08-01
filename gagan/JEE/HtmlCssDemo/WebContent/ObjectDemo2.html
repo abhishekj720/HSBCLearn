@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var obj = {num:0, 
+			
+			convert2Bin: function(){
+				var data = new Number(this.num);
+				return data.toString(2);
+			},
+			
+			convert2Oct: function(){
+				var data = new Number(this.num);
+				return data.toString(8);
+				
+			},
+			
+			convert2Hexa: function(){
+				var data = new Number(this.num);
+				return data.toString(16);
+			}
+	};
+	
+	
+	function doProcess(opt){
+
+		var num = document.getElementById("txtnum").value;
+		
+		if(isNaN(num)){
+			alert("Please enter a number only");
+		} else{
+			
+			obj.num = num;
+			switch(opt){
+			
+			case "binary" :
+				document.getElementById("result").innerHTML = obj.convert2Bin();
+				break;
+			case "octal" :
+				document.getElementById("result").innerHTML = obj.convert2Oct();
+				break;
+			case "hexa" :
+				document.getElementById("result").innerHTML = obj.convert2Hexa();
+				break;
+			
+			
+			}
+		}
+	};
+	
+	
+	
+	
+	
+	
+</script>
+</head>
+<body>
+	<h1 align="center">Number Conversion</h1>
+	<hr />
+	<table cellpadding="10" bgcolor="#e3e3e3">
+		<tr>
+			<td>Decimal Number</td>
+			<td><input type="text" id="txtnum" /></td>
+		</tr>
+		<tr>
+			<td>Choose Conversion</td>
+			<td><select onchange="doProcess(this.value)">
+					<option value="binary">binary</option>
+					<option value="octal">octal</option>
+					<option value="hexa">hexa</option>
+			</select></td>
+		</tr>
+		<tr>
+			
+			<td>Result</td>
+			<td id="result"></td>
+		</tr>
+	</table>
+
+</body>
+</html>

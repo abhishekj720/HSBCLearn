@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - Registration</title>
+<link href="hsbc.css" rel= "stylesheet">
+<link href = "images/logo.png" rel = "icon">
+<link href="frm.css" rel= "stylesheet">
+
+
+</head>
+<body>
+
+<header>
+	Palmeto Mobiles
+</header>
+
+<article>
+	<h2>Registration</h2>
+	<form autocomplete="on">
+	<table id ="frm">
+	<tr>
+		<td class="title">User Name</td>
+		<td class="data"><input type = "text" name = "uname" required placeholder="enter user name"/></td>
+	</tr>
+	<tr>
+	<td class="title">Password</td>
+	<td class="data"><input type="password" name= "pwd" required placeholder= "enter password"/></td>
+	</tr>
+	
+	<tr>
+	<td class="title">Gender</td>
+	<td class="data">
+	
+	<input type="radio" name= "gender"/>male
+	<input type="radio" name= "gender"/>female
+	</td>
+	</tr>
+	
+	
+	<tr>
+	<td class="title">Location</td>
+	<td class="data"><select>
+				<option value = "">--select location </option>
+				<option value = "hyderabad">hyderabad </option>
+				<option value = "pune">pune</option>
+				<option value = "chennai">chennai</option>
+				<option value = "banglore">banglore</option>	
+	</select>
+	</td>
+	</tr>
+	
+	<tr>
+	<td class="title"></td>
+	<td class="data"><input type="checkbox"/> send new products and offers
+	</td>
+	</tr>
+	
+	<tr style= "background-color: yellow">
+	<td><input type = "submit"/></td>
+	<td style="align:right"><input type="reset"/></td>
+	</tr>
+	
+	
+	
+	</table>
+	</form>
+	
+	
+	
+	
+	
+</article>
+<footer>
+	<div>&copy;copyright reserved 2019</div>
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+  #div1{
+     height: 200px;
+     width: 200px;
+     border: 1px solid red;
+     margin: 10px auto;
+     padding: 10px;
+  }
+</style>
+
+<script>
+   function displayBg(clr){
+	   document.getElementById("div1").style.backgroundColor=clr;
+	   
+   }
+   
+   function displayFg(clr){
+	   document.getElementById("div1").style.color=clr;
+	   
+   }
+   
+   
+</script>
+</head>
+<body>
+<h1 align="center">Configure Colors</h1>
+<hr/>
+<div style="width:200px;margin: 0 auto">
+  BG<input type="color" onchange="displayBg(this.value)"/>
+  FG<input type="color" onchange="displayFg(this.value)"/>
+</div>
+<div id="div1">
+Loren ipsum Loren ipsum  Loren ipsum  Loren ipsum  Loren ipsum  Loren ipsum 
+Loren ipsum  Loren ipsum  Loren ipsum  Loren ipsum  Loren ipsum 
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

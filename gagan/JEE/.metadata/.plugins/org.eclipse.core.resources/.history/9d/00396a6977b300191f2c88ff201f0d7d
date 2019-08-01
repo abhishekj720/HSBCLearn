@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	#err{
+		color:red;
+		text-align:center;
+	}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+<h1 align = "center">User Details</h1>
+<hr/>
+<div align = "center">
+	User ID<input type = "text" id = "txtid">
+	<input type = button value = "search user" onclick="searchUser">
+	</div>
+	
+<div id ="err"></div>
+   <table id = "tbl1" cellpadding="10" bgcolor="cyan" style="margin:0px auto; display:none; width:2 00px">
+	    <tr>
+			<td>Product ID</td>
+			<td id="tuid"></td>
+		</tr>
+		<tr>
+			<td>User Name</td>
+			<td id="tuname"></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td id="temail"></td>
+		</tr>
+		
+		<tr>
+			<td>City</td>
+			<td id="tcity"></td>
+		</tr>
+		
+		<tr>
+			<td>Company Name</td>
+			<td id="tcompany"></td>
+		</tr>
+		
+	</table>
+
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+var jarr=[{eid:1001,ename:'ram',sal:6000},
+			{eid:1002,ename:'tom',sal:26000},
+			{eid:1003,ename:'sam',sal:16000},];
+	
+function display(){
+	
+	for(var idx=0; idx<jarr.length;idx++){
+		document.getElementById("teid").innerHTML = jarr[idx].eid;
+		document.getElementById("tname").innerHTML = jarr[idx].ename;
+		document.getElementById("tsal").innerHTML = jarr[idx].sal;
+		var data = "<td>" + name + "</td><td>" + dept + "</td>";
+		  data += "<td><input type='button' value = 'remove' onclick = 'removeRow(this)'/></td>";
+	}
+}
+
+function clearData(){
+	document.getElementById("teid").innerHTML = "";
+	document.getElementById("tname").innerHTML = "";
+	document.getElementById("tsal").innerHTML = "";
+}
+	
+</script>
+</head>
+<body>
+<h1>Array of JSon </h1>
+<hr/>
+
+<table>
+<tr>
+<td id= "teid"></td>
+<td id= "tname"></td>
+<td id= "tsal"></td>
+
+</tr>
+</table>
+
+<div align="center">
+	<input type="button" id="btn1" value="populate" onclick="display()"/>
+</div>
+<div id="div1">
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

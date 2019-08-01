@@ -1,0 +1,62 @@
+#gallery{
+	/* to start product from where other is ending in the same line */
+	display: flex;
+	width: 90%;
+	margin: 0px auto;
+	/* so that no scroll, after ending of a line of products next product starts from next line */
+	flex-wrap: wrap;
+}
+
+
+
+#gallery img{
+	height : 200px;
+	width: 200px;
+}
+
+
+#gallery div{
+	border : 1px solid red;
+	margin: 10px;
+	background-color: wheat;
+	padding : 10px;
+	border-radius: 5px;
+	box-shadow:5px 5px 5px black;
+	
+}
+
+.price{
+	color: gray;
+	text-decoration: line-through;
+}
+
+
+
+.brand{
+	font-weight:bold;
+	color: #4698c8;
+}
+
+.oprice{
+	color:red;
+}
+
+#gallery ul{
+	list-style:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#div1 {
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+}
+</style>
+<script>
+ 
+ }
+
+</script>
+
+</head>
+<body>
+	<h1>Switch Demo</h1>
+	<hr />
+	<h3>Choose any one of them to display definition</h3>
+	<input type="radio" name="r1" value="html" onclick="display(this.value)" />html
+	<input type="radio" name="r1" value="css" onclick="display(this.value)" />css
+	<input type="radio" name="r1" value="js" onclick="display(this.value)" />javascript
+	<div id="div1"></div>
+	
+	<div id="cssdiv" style="display:none">
+	  <ul>
+	    <li>Font &amp; Text</li>
+	    <li>Background</li>
+	    <li>Margin &amp; padding</li>
+	    <li>Size</li>
+	    <li>Transition</li>
+	  </ul>
+	</div>
+	<div id="jsdiv" style="display:none">
+	  <ul>
+	    <li>JS basics</li>
+	    <li>Obect Oriented JS</li>
+	    <li>JS DOM</li>
+	    <li>JS Events</li>
+	    
+	  </ul>
+	</div>
+	<div id="htmldiv" style="display:none">
+	  <ul>
+	    <li>Formatting tags</li>
+	    <li>List &amp; Links</li>
+	    <li>Table</li>
+	    <li>HTML Forms</li>
+	    
+	  </ul>
+	</div>
+</body>
+</html>

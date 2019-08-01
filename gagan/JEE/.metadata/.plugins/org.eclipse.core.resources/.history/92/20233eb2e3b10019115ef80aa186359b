@@ -1,0 +1,8 @@
+#gallery{
+	/* to start product from where other is ending in the same line */
+	display: flex;
+	width: 80%;
+	margin: 0px auto;
+	/* so that no scroll, after ending of a line of products next product starts from next line */
+	flex-wrap: wrap;
+}

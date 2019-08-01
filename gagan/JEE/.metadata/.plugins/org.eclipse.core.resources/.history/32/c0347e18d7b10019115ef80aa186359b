@@ -1,0 +1,43 @@
+header, footer{
+	text-align:center;
+}
+/* only for images under footer */
+
+header{
+	background-color: #4698c8;
+	color:white;
+	text-shadow: 5px 5px 5px gray;
+	font-family: cursive;
+	padding:5px;
+	font-size: 60px;
+}
+
+footer{
+	/* background-color: #C0C0C0; */
+	
+	background-color: red; 
+	/*background-image: linear-gradient(red, yellow, green);*/
+	padding:10px;
+	color:white
+	
+}
+
+
+footer img{
+	height:50px;
+	width:70px;
+}
+
+/* so that footer is at bottom regardless of the content in middle of the page*/
+article{
+	min-height : 520px
+}
+
+
+article h2{
+	text-align:center;
+	color:Red;
+}
+
+
+

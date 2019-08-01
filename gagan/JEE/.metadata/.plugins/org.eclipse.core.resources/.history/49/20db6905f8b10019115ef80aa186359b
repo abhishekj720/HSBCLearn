@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - home</title>
+<link href="hsbc.css" rel= "stylesheet">
+<link href = "images/logo.png" rel = "icon">
+
+</head>
+<body>
+
+<header>
+	Palmeto Mobiles
+</header>
+
+<article>
+	<h2>Home</h2>
+	<nav>
+	<div class="btn"><a href = "catlog.html"><div class="lwidth">Product Catalog</div></a></div>
+	<div class="btn"><a href = "gallery.html"><div class="lwidth">Product Gallery</div></a></div>
+	<div class="btn"><a href = "order.html"><div class="lwidth">Order Product</div></a></div>
+	<div class="btn"><a href = "registration.html"><div class="lwidth">Registration</div></a></div>
+	<div class="btn"><a href = "contactus.html"><div class="lwidth">Contact Us</div></a></div>
+	</nav>
+	
+	<article>
+	<section>
+	<video src = "samsung.mp4"></video>
+	<div>lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+	lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+	lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum
+	</div>
+	</section>
+	
+	<aside>
+	
+	</aside>
+	<img src ="images/mobile1.jpg"/>
+	<ul>
+	<li>Facebook</li>
+	<li>Twitter</li>
+	<li>LinkedIn</li>
+	<li>Instagram</li>
+	</ul>
+	
+	
+	</article>
+</article>
+<footer>
+	<div>&copy;copyright reserved 2019</div>
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+
+
+</body>
+</html>

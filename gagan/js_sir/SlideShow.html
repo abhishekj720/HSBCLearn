@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Slide Show</title>
+<style>
+   h1{
+     text-align: center;
+   }
+   hr{
+     height:3px;
+   }
+   div{
+     height:200px;
+     width:200px;
+     margin:0px auto;
+     border:1px solid red;
+   }
+   
+   div img{
+      height:200px;
+      width:200px;
+   }
+</style>
+<script>
+ var arr= ["images/computer1.jpg", "images/computer2.jpg", "images/computer3.jpg", 
+	 "images/mobile1.jpg", "images/mobile2.jpg", "images/mobile3.jpg"];
+ var i=1;
+ 
+ function startShow(){
+	 
+ }
+ setInterval("startShow()", 1000);
+</script>
+
+</head>
+<body>
+<h1>Slide Show</h1>
+<hr/>
+<div id="div1">
+   <img src="images/computer1.jpg"/>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+

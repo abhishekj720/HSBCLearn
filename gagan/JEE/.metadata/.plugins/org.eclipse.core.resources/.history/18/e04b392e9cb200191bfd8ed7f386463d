@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+   function calcVolOfCyl(){
+	   var ht = document.getElementById("txth").value;
+	   var radius = document.getElementById("txtr").value;
+	   var cyl = Math.PI * radius * radius * ht;
+	   document.getElementById("res").innerHTML = cyl.toFixed(2);
+   }
+   
+   function calcVolOfCone(){
+	   var ht = document.getElementById("txth").value;
+	   var radius = document.getElementById("txtr").value;
+	   var cone = (1/3) Math.PI * radius * radius * ht;
+	   document.getElementById("res").innerHTML = cone.toFixed(2);
+   }
+   
+   function clearData(){
+	   document.getElementById("txth").value="";
+	   document.getElementById("txtr").value="";
+	   document.getElementById("res").innerHTML="";
+	   
+   }
+   
+   
+</script>
+</head>
+<body>
+	<h1 align="center">Volume Of Shapes</h1>
+	<hr />
+	<table cellpadding="10" bgcolor="#e3e3e3" style="margin: 0 auto">
+		<tr>
+			<td>radius</td>
+			<td><input type="text" id="txtr" /></td>
+		</tr>
+		<tr>
+			<td>height</td>
+			<td><input type="text" id="txth"/></td>
+		</tr>
+		
+		<tr>
+			<td>result</td>
+			<td id="res"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="cylinder" onclick="calcVolOfCyl()"/></td>
+			<td><input type="button" value="cone" onclick="calcVolOfCone()"/>
+			    <input type="button" value="clear" onclick="clearData();">
+			</td>
+		</tr>
+	</table>
+	
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - Contact Us</title>
+<link href="hsbc.css" rel= "stylesheet">
+</head>
+<body>
+
+<header>
+	Palmeto Mobiles
+</header>
+
+<article>
+	<h2>Contact Us</h2>
+	<div style="width:200px; margin: 0px auto;">
+	<div><img src = "images/contactus.jpg"/></div>
+	
+	<div><span >Vaishnavi Enclosure</span></div>
+	<div><span>24, Gachibowli Road</span></div>
+	<div><span>Hyderabad</span></div>
+	<div><span>Landmark: near A<sup>2</sup>B</span></div>
+	<div><span>Mobile: 9999977777</span></div>
+	<div><span><a href="mailto:hr@palmeto.com">Send Mail</a>  </span></div>
+	
+	
+	</div>
+</article>
+<footer>
+	<div>&copy;copyright reserved 2019</div>
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>

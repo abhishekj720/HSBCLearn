@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+
+
+function makeFocus(elem){
+	
+}
+
+function removeFocus(elem){
+	
+}
+</script>
+</head>
+<body >
+<h1>Blur event</h1>
+<hr/>
+<form>
+	<table cellpadding="10" bgcolor="#e3e3e3">
+		<tr>
+			<td>empid</td>
+			<td><input type="text" id="txtid" onblur="removeFocus(this)" onfocus="makeFocus(this);"/>
+			</td>
+			<td id ="err1"></td>
+			
+		</tr>
+		<tr>
+			<td>name</td>
+			<td><input type="text" id="txtname" onblur="removeFocus(this)" onfocus="makeFocus(this);"/></td>
+			
+		</tr>
+		
+		<tr><td colspan="3" align="center"><input type="submit" /></td></tr>
+	</table>
+	</form>
+</body>
+</html>

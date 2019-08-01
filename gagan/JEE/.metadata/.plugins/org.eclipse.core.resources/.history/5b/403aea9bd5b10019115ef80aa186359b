@@ -1,0 +1,25 @@
+table{
+	margin:0px auto;  /* centering the block element */
+	border-collapse: collapse;  /*cellspacing - 0*/
+	
+}
+
+table img{
+	height: 75px;
+	width: 100px;
+	
+}
+
+th, td{
+	padding: 10px;
+}
+
+thead tr{
+	background-color: #4698c8;
+	color: white;
+	
+}
+
+tbody tr : nth-child(odd){
+	background-color: yellow
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#err1,#err2, #err3{
+  color:red;
+}
+</style>
+
+
+
+
+</head>
+<body>
+	<h1>Form Validation</h1>
+	<hr />
+	<form name="frm1" onsubmit="return validate();">
+	<table cellpadding="10" bgcolor="#e3e3e3">
+		<tr>
+			<td>name</td>
+			<td><input type="text" id="txtname" name="txtname"/></td>
+			<td id="err1"></td>
+		</tr>
+		<tr>
+			<td>age</td>
+			<td><input type="text" id="txtage" name="txtage"/></td>
+			<td id="err2"></td>
+		</tr>
+		<tr>
+			<td>email</td>
+			<td><input type="text" id="txtemail" name="txtemail"/></td>
+			<td id="err3"></td>
+		</tr>
+		<tr><td colspan="3" align="center"><input type="submit" /></td></tr>
+	</table>
+	</form>
+</body>
+</html>

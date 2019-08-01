@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+  function addRow(){
+	  var name = document.getElementById("txtname").value;
+	  var dept = document.getElementById("txtdept").value;
+	  var elem = document.createElement("tr");
+	  var data = "<td>" + name + "</td><td>" + dept + "</td>";
+	  data += "<td><input type='button' value = 'remove' onclick = 'removeRow(this)'/></td>";
+	  elem.innerHTML = data;
+	  document.getElementById("tbl1").appendChild(elem);
+  }
+  
+  function prependRow(){
+	  var name = document.getElementById("txtname").value;
+	  var dept = document.getElementById("txtdept").value;
+	  var elem = document.createElement("tr");
+	  var data = "<td>" + name + "</td><td>" + dept + "</td>";
+	  data += "<td><input type='button' value = 'remove' onclick = 'removeRow(this)'/></td>";
+	  elem.innerHTML = data;
+	  document.getElementById("tbl1").prepend(elem);
+	  
+  }
+  
+  function removeRow(elem){
+	  var tr = elem;  <!-- element is button  -->
+	  document.getElementById("tbl1").remove(tr);
+	  
+  }
+  
+
+</script>
+
+</head>
+<body>
+	<h1 style="text-align: center">Append Child</h1>
+	<hr />
+
+	<table cellpadding="10" bgcolor="cyan" style="margin: 0px auto">
+		<tr>
+			<td>Name</td>
+			<td><input type="text" id="txtname" /></td>
+		</tr>
+		<tr>
+			<td>Dept</td>
+			<td><input type="text" id="txtdept" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="add" onclick="addRow()"/></td>
+			<td><input type="button" value="prepend" onclick="prependRow()"/></td>
+			
+		</tr>
+	</table>
+	<hr />
+	<table cellpadding="10" bgcolor="#708090" cellspacing="0" style="margin: 0px auto; color:white">
+		<thead>
+		<tr bgcolor="red">
+				<td>Name</td>
+				<td>Dept</td>
+				<td style = "width:50px">&nbsp;</td>
+			</tr>
+		</thead>
+		
+		<tbody id="tbl1">
+			
+		</tbody>
+	</table>
+
+</body>
+</html>
+
+
+

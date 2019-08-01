@@ -1,0 +1,84 @@
+#frm{
+	margin: 0px auto;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;
+}
+
+
+.title{
+		background-color: red;
+		color: white;
+		width:100px;
+		padding: 10px;
+	
+}
+
+.data{
+	background-color: #4698c8;
+	width: 200px;
+	padding:10px;
+}
+
+.row{
+	display:flex;
+	felx-wrap: wrap;
+}
+
+
+#frm2{
+	margin: 0px auto;
+	width:340px;
+	
+	
+}
+
+
+
+@media only screen and (max-width: 400px){
+	#frm2{
+		width: 150px;
+	}
+	
+	.title, .data{
+		background-color: white;
+		color: black;
+	}
+	
+	input[type="reset"]{
+	display:none;
+	}
+	
+	td{
+		width:100%;
+		display:block;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

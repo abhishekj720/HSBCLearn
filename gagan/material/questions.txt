@@ -1,0 +1,63 @@
+CREATE TABLE questions(
+  qid int PRIMARY KEY,
+  qdesc varchar(255) NOT NULL,
+  optionA varchar(45) NOT NULL,
+  optionB varchar(45) NOT NULL,
+  optionC varchar(45) NOT NULL,
+  answer varchar(45) NOT NULL
+);
+
+
+INSERT INTO questions VALUES (1,'what is the size of int type','1','2','4','4');
+
+INSERT INTO questions VALUES (2,'what is the size of byte type','1','2','4','1');
+
+INSERT INTO questions VALUES (3,'what is the size of short type','1','2','4','2');
+
+INSERT INTO questions VALUES (4,'which colection holds unique elements','list','set','map','set');
+
+INSERT INTO questions VALUES (5,'which colection allows duplicate elements','list','set','map','list');
+
+INSERT INTO questions VALUES (6,'which colection is key value paired elements','list','set','map','map');
+
+INSERT INTO questions VALUES (7,'which colection retreives  value for the given key', 'list','set','map','map');
+
+INSERT INTO questions VALUES (8,'Which package the JDBC belongs ','java.util','java.sql','java.io','java.sql');
+
+INSERT INTO questions VALUES (9,'Which package the Collection belongs ','java.util','java.sql','java.io','java.util');
+
+
+INSERT INTO questions VALUES (10,'what is the root most class in inheritance hierarchy ','Class','Object','Throwable','Object');
+
+INSERT INTO questions VALUES (11,'Which clause is used when the method need not to handle checked exception ','throw','throws','finally','throws');
+
+INSERT INTO questions VALUES (12,'In JDBC, parameters are binded to the query using which object', 'Statement','PreparedStatement','ResultSet','PreparedStatement');
+
+INSERT INTO questions VALUES
+(13, 'Which of the following can not be used as the first letter to form a valid java identifier', 'Dollar', 'Ampersand', 'Underscore', 'Dollar');   
+
+
+INSERT INTO questions VALUES (14,'In java, Thread can be created', 'extends Thread class','implements Runnable interface','All','All');
+
+INSERT INTO questions VALUES (15,'Which block is the exception handler', 'try','catch','finally','catch');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - Gallery</title>
+<link href="hsbc.css" rel= "stylesheet">
+<link href = "images/logo.png" rel = "icon">
+
+</head>
+<body>
+
+<header>
+	Palmeto Mobiles
+</header>
+
+<article>
+	<h2>Product Gallery</h2>
+	<section id = "gallery">
+	<div>
+	<img src = "images/mobile1.jpg"/>
+	</div>
+	</section>
+	
+</article>
+<footer>
+	<div>&copy;copyright reserved 2019</div>
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+
+
+</body>
+</html>

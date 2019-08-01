@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#div1{
+  width: 300px;
+  height:300px;
+  margin: 0 auto;
+}
+#div2{
+   background: -webkit-radial-gradient(yellow, orange, red);
+   background: -ms-radial-gradient(yellow, orange, red);
+   background: -moz-radial-gradient(yellow, orange, red);
+   
+   color: white;
+   height: 200px;
+   width:200px;
+   padding: 10px;
+   display:none;
+}
+</style>
+<script>
+  
+  function display(elem){
+	  
+	  if(elem.innerHTML== 'read more'){
+		  document.getElementById("div2").style.display="block";
+		  elem.innerHTML = "read Less";
+	  } else {
+		  document.getElementById("div2").style.display="none";
+		  elem.innerHTML = "read more";
+	  }
+	  
+  }
+
+</script>
+
+</head>
+<body>
+<h1>Show/Hide html</h1>
+<hr/>
+<div id="div1">
+ <input type="checkbox" id="chk1" onclick="display(this)"/>show/hide Advertisement<br/>
+ <div id="div2">
+     <h2>Peter England</h2>
+  </div>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

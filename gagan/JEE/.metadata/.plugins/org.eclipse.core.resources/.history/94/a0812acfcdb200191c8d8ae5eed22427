@@ -1,0 +1,12 @@
+function validate(){
+	
+	
+	
+}
+
+
+function validateName(name){
+	var namepatt = /^[a-zA-Z]{3,15}$/;
+	return namepatt.test(name);
+	
+}

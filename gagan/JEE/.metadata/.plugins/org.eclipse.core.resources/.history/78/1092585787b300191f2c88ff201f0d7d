@@ -1,0 +1,53 @@
+package com.hsbc.web;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class TagServlet
+ */
+public class TaxServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public TaxServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String name = request.getParameter("txtname");
+		double income = Double.parseDouble(request.getParameter("txtincome"));
+		
+		double  tax = 0;
+		if(income > 1000000) {
+			tax=(500000 * 0.1) + (income-100000)*0.15;
+		}
+		else if(income > 500000) {
+			tax = (income - 500000)*0.1;
+		}
+		
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		
+		
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

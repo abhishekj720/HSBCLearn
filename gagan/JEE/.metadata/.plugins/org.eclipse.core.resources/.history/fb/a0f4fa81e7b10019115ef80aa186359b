@@ -1,0 +1,26 @@
+#frm{
+	margin: 0px auto;
+}
+
+th, td{
+	padding: 10px;
+}
+
+.title{
+	background-color: #4698c8
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+  var json = {emps: {1001:{"eid":1001, "ename":"akbar", "sal":23000}},
+	           {1002:{"eid":1002, "ename":"rama", "sal":13000}},
+	           {1003:{"eid":1003, "ename":"suresh", "sal":33000}},
+	           {1004:{"eid":1004, "ename":"joseph", "sal":53000}},
+	           {1005:{"eid":1005, "ename":"varun", "sal":43000}}
+  };
+  
+  function display(){
+	  var html ="<table cellpadding='10' bgcolor='cyan'     ";
+		
+		for(var idx=0; idx<jarr.length;idx++){
+			html+= "<tr>";
+			html+= "<td>" + jarr[idx].eid + "</td>";
+			html+= "<td>" + jarr[idx].ename + "</td>";
+			html+= "<td>" + jarr[idx].sal + "</td>";
+			html+= "</tr>";
+		}
+		document.getElementById("div1").innerHTML = html;
+  }
+</script>
+</head>
+<body>
+<div align="center">
+   Eid: <input type="text" id="txtid"/>
+   <input type="button" value="search" onclick="display()"/>
+   <table cellpadding="10" bgcolor="cyan" style="margin:0px auto">
+	    <tr>
+			<td>EID</td>
+			<td id="teid"></td>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td id="tname"></td>
+		</tr>
+		<tr>
+			<td>salary</td>
+			<td id="tsal"></td>
+		</tr>
+		
+	</table>
+   
+</div>
+</body>
+</html>

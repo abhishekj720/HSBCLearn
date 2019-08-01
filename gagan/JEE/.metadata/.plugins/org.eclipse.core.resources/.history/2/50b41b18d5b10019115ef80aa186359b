@@ -1,0 +1,11 @@
+table{
+	margin:0px auto;
+	
+}
+
+table img{
+	height: 75px;
+	width: 100px;
+	
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	
+	function Volume(r,h){
+		this.radius=r;
+		this.height =h;
+		this.calcCyl = function(){
+			var cyl = Math.PI * this.radius * this.radius * this.height;
+			return cyl;
+		}; 
+		
+		this.calcCone = function(){
+			var cone  = 1/3.0 * Math.PI * this.radius * this.radius * this.height;
+			return cone;	
+		};
+		
+	}
+
+	function calcVolume(){
+		var r = document.getElementById("txtr").value;
+		var h = document.getElementById("txth").value;
+		var obj = new Volume(r,h);
+		var data="";
+		if(document.getElementById.("r1").checked){
+			data = obj.calcCyl().toFixed(2);
+			
+		} else if(document.getElementById.("r2").checked){
+			data = obj.calcCone().toFixed(2);
+		}
+		
+		document.getElementById("res").innerHTML = data;
+	}
+	
+</script>
+</head>
+<body>
+	<h1>Volume of Cylinder and Cone</h1>
+	<hr />
+	<table cellpadding="10" bgcolor="#e3e3e3" style="margin: 0 auto">
+		<tr>
+			<td>radius</td>
+			<td><input type="text" id="txtr" /></td>
+		</tr>
+		<tr>
+			<td>height</td>
+			<td><input type="text" id="txth" /></td>
+		</tr>
+		<tr>
+			<td><input type="radio" value="cyl" id="r1" name="shape"/> Cylinder</td>
+			<td><input type="radio" value="cone" id="r2" name="shape"/>Cone</td>
+		</tr>
+		<tr>
+			<td>result</td>
+			<td id="res"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="Find volume"
+				onclick="calcVolume()" /></td>
+			<td></td>
+		</tr>
+	</table>
+
+</body>
+</html>

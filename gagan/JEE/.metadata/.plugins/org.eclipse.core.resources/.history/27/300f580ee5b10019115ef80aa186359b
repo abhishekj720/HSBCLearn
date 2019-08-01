@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - Gallery</title>
+<link href="hsbc.css" rel= "stylesheet">
+<link href = "images/logo.png" rel = "icon">
+<link href="Gallery.css" rel= "stylesheet">
+
+
+</head>
+<body>
+
+<header>
+	Palmeto Mobiles
+</header>
+
+<article>
+	<h2>Product Gallery</h2>
+	<section id = "gallery">
+
+	
+	<div>
+	<img src = "images/mobile1.jpg"/>
+	<ul>
+		<li><span class = "brand">Samsung</span></li>
+		<li><span class = "oprice">INR. 20000</span></li>
+		<li><span class = "sprice">INR. 25000</span></li>
+	</ul>
+	</div>
+
+	
+	<div>
+	<img src = "images/mobile2.jpg"/>
+
+	<ul>
+		<li><span class = "brand">Samsung Note</span></li>
+		<li><span class = "oprice">INR. 17000</span></li>
+		<li><span class = "price">INR. 20000</span></li>
+	</ul>
+
+	</div>
+	
+	<div>
+	<img src = "images/mobile3.jpg"/>
+
+	<ul>
+		<li><span class = "brand">Samsung duos</span></li>
+		<li><span class = "oprice">INR. 7000</span></li>
+		<li><span class = "price">INR. 10000</span></li>
+	</ul>
+
+	</div>
+	
+	<div>
+	<img src = "images/mobile4.jpg"/>
+
+	<ul>
+		<li><span class = "brand">Redmi</span></li>
+		<li><span class = "oprice">INR. 12000</span></li>
+		<li><span class = "price">INR. 15000</span></li>
+	</ul>
+	</div>
+
+	
+	<div>
+	<img src = "images/mobile5.jpg"/>
+
+	<ul>
+		<li><span class = "brand">Nokia</span></li>
+		<li><span class = "oprice">INR. 16000</span></li>
+		<li><span class = "price">INR. 18000</span></li>
+	</ul>
+	</div>
+
+	
+	<div>
+	<img src = "images/mobile6.jpg"/>
+
+	<ul>
+		<li><span class = "brand">Apple</span></li>
+		<li><span class = "oprice">INR. 80000</span></li>
+		<li><span class = "price">INR. 90000</span></li>
+	</ul>
+	</div>
+
+	
+	<div>
+	<img src = "images/mobile7.jpg"/>
+
+	<ul>
+		<li><span class = "brand">OnePlus</span></li>
+		<li><span class = "oprice">INR. 45000</span></li>
+		<li><span class = "price">INR. 50000</span></li>
+	</ul>
+
+	</div>
+	
+	<div>
+	<img src = "images/mobile8.jpg"/>
+
+	<ul>
+		<li><span class = "brand">RealMe</span></li>
+		<li><span class = "oprice">INR. 17000</span></li>
+		<li><span class = "price">INR. 19000</span></li>
+	</ul>
+
+	</div>
+	
+	<div>
+	<img src = "images/mobile9.jpg"/>
+
+	<ul>
+		<li><span class = "brand">Samsung M30</span></li>
+		<li><span class = "oprice">INR. 15000</span></li>
+		<li><span class = "price">INR. 16000</span></li>
+	</ul>
+
+	</div>
+	
+	</section>
+	
+</article>
+<footer>
+	<div>&copy;copyright reserved 2019</div>
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+
+
+</body>
+</html>

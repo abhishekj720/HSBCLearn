@@ -1,0 +1,2 @@
+there are 3 scopes of variables
+local scope resides in java stack

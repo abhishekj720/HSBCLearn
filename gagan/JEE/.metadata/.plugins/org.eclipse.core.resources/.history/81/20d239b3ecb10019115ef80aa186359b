@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - Order Mobiles</title>
+<link href="hsbc.css" rel= "stylesheet">
+<link href = "images/logo.png" rel = "icon">
+
+</head>
+<body>
+
+<header>
+	Palmeto Mobiles
+</header>
+
+<article>
+	<h2>Order Mobile</h2>
+	<section id = "frm">
+	<div>
+		<div class="title">Product Name</div>
+		<div class="data"><input type = "text" name = "pname"/> </div>
+			<datalist id ="plist">
+			<option value = "samsung galaxy"/>
+			<option value = "samsung note"/>
+			<option value = "samsung duos"/>
+			<option value = "iphone i7"/>
+			<option value = "iphone i6"/>
+			<option value = "iphone i5"/>
+			
+			</datalist>
+		
+		
+		
+		
+		
+	</div>
+	
+	
+	
+	
+	
+	</section>
+	
+	
+	
+	
+</article>
+
+
+<footer>
+	<div>&copy;copyright reserved 2019</div>
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+</body>
+</html>

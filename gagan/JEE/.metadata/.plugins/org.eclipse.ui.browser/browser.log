@@ -1,0 +1,21 @@
+
+Jul 30, 2019 09:37:54.61 NEW SESSION
+Jul 30, 2019 09:37:54.70 [1072:1988:0730/093754.611:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+Jul 30, 2019 09:39:19.63 [1072:1988:0730/093919.636:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+Jul 30, 2019 09:39:40.57 [1072:1988:0730/093940.572:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+Jul 30, 2019 09:41:12.35 [1072:1988:0730/094112.356:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+Jul 30, 2019 09:44:36.58 [1072:1988:0730/094436.580:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+Jul 30, 2019 11:58:47.29 [1072:1988:0730/115847.298:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+Jul 30, 2019 11:59:23.29 [1072:1988:0730/115923.295:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+Jul 30, 2019 11:59:23.62 [1072:1988:0730/115923.620:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 
+Jul 30, 2019 12:56:08.64 [1072:2844:0730/125608.641:ERROR:browser_process_sub_thread.cc(221)] Waited 49 ms for network service
+Jul 30, 2019 12:56:31.03 [2164:4812:0730/125631.039:ERROR:browser_process_sub_thread.cc(221)] Waited 74 ms for network service
+Jul 30, 2019 13:02:44.27 [2076:4572:0730/130244.275:ERROR:browser_process_sub_thread.cc(221)] Waited 5 ms for network service
+Jul 30, 2019 17:41:15.60 [3056:2812:0730/174115.606:ERROR:browser_process_sub_thread.cc(221)] Waited 127 ms for network service
+
+Jul 31, 2019 11:05:06.34 NEW SESSION
+Jul 31, 2019 11:05:06.34 [212:1792:0731/110506.220:ERROR:browser_process_sub_thread.cc(221)] Waited 163 ms for network service
+Jul 31, 2019 11:05:49.51 [896:2100:0731/110549.513:ERROR:browser_process_sub_thread.cc(221)] Waited 156 ms for network service
+Jul 31, 2019 11:37:03.87 [3640:1600:0731/113703.877:ERROR:browser_process_sub_thread.cc(221)] Waited 35 ms for network service
+Jul 31, 2019 12:56:35.08 [1424:1940:0731/125635.081:ERROR:textfield.cc(1758)] NOT IMPLEMENTED
+Jul 31, 2019 16:20:16.63 [1424:1000:0731/162016.630:ERROR:audio_manager_base.cc(363)] Invalid audio output parameters received; using fake audio path: format: 0, channel_layout: 0, channels: 0, sample_rate: 0, frames_per_buffer: 0, effects: 0, mic_positions: 

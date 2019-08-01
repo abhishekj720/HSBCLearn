@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+  h1{
+    text-align:center;
+  }
+  hr{
+     height:5px;
+     background-color: "red";
+  }
+  div{
+     height:100px;
+     width:100px;
+     margin:0px auto;
+     padding:10px;
+     background-color: yellow;
+     
+  }
+  
+</style>
+<script>
+var m=1;
+var s=0;
+
+function changeTime(){
+	
+	
+	if (s== 0){
+		s=60;
+		--m;
+	}
+	--s;
+	document.getElementById("div1").innerHTML= m + ":" + s;
+	if(m==0 && s==0){
+		clearInterval(timer);
+		document.getElementById("btn1").disabled=true;
+	}
+	
+}
+
+var timer= setInterval("changeTime()", 1000);
+
+</script>
+
+</head>
+<body>
+<h1>Stopper</h1>
+<hr/>
+<div id="div1">1:00</div>
+<input type="button" value="finish" id="btn1"/>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,168 @@
+//// if databas already exists -- don't give create=true
+
+CONNECT 'jdbc:derby://localhost:1527/hsbcdb;create=true';
+
+
+/////// not case sensitive
+SHOW TABLES;
+
+
+
+CREATE TABLE employee(eid int PRIMARY KEY, ename varchar(15) NOT NULL, sal double CHECK(sal>=5000), dept varchar(10), doj date);
+
+
+//// unique key can be null but primatry can't be
+/// primary = unique + not null
+
+
+INSERT INTO employee values(1001, 'ram kumar', 45000, 'hr', '2016-04-23');
+INSERT INTO employee values(1002, 'peter', 35000, 'hr', '2017-04-23');
+INSERT INTO employee values(1003, 'sam', 55000, 'hr', '2015-09-23');
+INSERT INTO employee values(1004, 'ravi teja', 25000, 'hr', '2018-04-23');
+INSERT INTO employee values(1005, 'vikas singh', 35000, 'hr', '2017-07-21');
+INSERT INTO employee values(1006, 'bala krishna', 15000, 'hr', '2018-04-23');
+INSERT INTO employee values(1007, 'ram KUmar', 45000, 'hr', '2016-04-23');
+INSERT INTO employee values(1008, 'abcd', 18000, 'pr', '2018-04-23');
+INSERT INTO employee values(1009, 'efg', 16000, 'pr', '2018-04-23');
+
+
+
+SELECT* FROM employee;
+
+
+drop table employee;
+
+
+
+
+
+///Assignment 
+1 display the employee for the given dept hr
+2 display the employee who earns between 25 and 35k;
+3 display the employee in the descending order of salary
+4 display the employee in the order of doj
+5 display the employee and annual income
+6 display the employee whose name ends with kumar
+7 display the sum, average, max, min and number of employees;
+8 display the number of employees and average salary, maximum salary in each department
+9 display the distinct department 
+10 display the employee who earns the maximum salary
+11 display the employee who earns above average salary
+12 find the eployee who earns the maximum salary in each department
+
+
+
+
+
+1
+select * from employee where dept = 'hr';
+
+
+2
+select * from employee where sal BETWEEN 15000 and 35000;
+
+
+3
+select * from employee order by sal desc;
+
+
+
+4
+select * from employee order by doj;
+
+
+5
+select ename, sal*12 from employee;
+
+
+
+6
+
+select * from employee where LOWER(ename) LIKE '%kumar';
+
+
+
+7
+
+select sum(sal), max(sal), min(sal), avg(sal), count(eid) from employee; 
+
+
+8
+
+select max(sal), avg(sal), count(eid) from employee GROUP BY dept;
+
+
+
+9
+select DISTINCT dept from employee;
+
+
+10
+select*from employee where sal=(select max(sal) from employee);
+
+
+
+11
+select*from employee where sal > (select avg(sal) from employee);
+
+12
+select*from employee e1 where sal= ( select max(sal) from employee where dept = e1.dept);
+///
+
+
+/////// Assignment 2
+
+// using foreign key
+
+create table category n product
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

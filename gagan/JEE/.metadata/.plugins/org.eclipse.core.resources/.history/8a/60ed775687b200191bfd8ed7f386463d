@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Background Demo</title>
+<style>
+	body{
+		min-height:600px;
+		background-image: url('../images/bg1.jpg'), url('../images/bg2.jpg'), url('../images/bg3.jpg'), url('../images/bg4.jpg'),
+		background-repeat: no-repeat x-repeat no-repeat x-repeat   ;  
+		background-position: center;
+		background-attachment: fixed;
+		
+	}
+	
+	div{
+		border: 1px solid red;
+	/*	background-color: -webkit-liner-gradient(left,blue, #4698c8, white, yellow, white, #4698c8, blue);  */
+		margin: 10px;
+		height:400px;
+	}
+
+</style>
+
+
+
+</head>
+<body>
+
+<h1>Background Demo</h1>
+<hr/>
+
+<div></div>
+<div></div>
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sub Menus</title>
+<style>
+	#menu{
+		display: flex;
+		}
+	.submenu{
+		display:none;
+		list-style: none;
+	}
+	
+	.submenu li{
+		background-color: blue;
+		padding : 10px;
+	}
+	
+	menu>li{
+		margin : 10px;
+		list-style: none;
+	}
+	
+	#menu>li a{    /*     >li used  */ 
+		margin: 10px;
+		width: 100px;
+		padding: 10px;
+		background: -webkit-linear-gradient(left, red, orange, yellow, orange, red);
+		box-shadow: 10px 10px 20px black;
+	}
+	
+	#menu>li:hover .submenu{
+		display:block;
+	}
+	
+	
+	
+
+</style>
+
+
+</head>
+<body>
+<h1>Menus and Sub-Menus</h1>
+<hr/>
+<ul id="menu">
+	<li><a href="">Menu 1</a>
+		<ul class="submenu"> 
+			<li>Sub Menu 1</li>
+			<li>Sub Menu 2</li>
+			<li>Sub Menu 3</li>
+		</ul>
+	</li>
+	
+	<li><a href="">Menu 2</a>
+		<ul class="submenu"> 
+			<li>Sub Menu 1</li>
+			<li>Sub Menu 2</li>
+			<li>Sub Menu 3</li>
+		</ul>
+	</li>
+	
+	<li><a href="">Menu 3</a>
+		<ul class="submenu"> 
+			<li>Sub Menu 1</li>
+			<li>Sub Menu 2</li>
+			<li>Sub Menu 3</li>
+		</ul>
+	</li>
+	
+	<li><a href="">Menu 4</a>
+		<ul class="submenu"> 
+			<li>Sub Menu 1</li>
+			<li>Sub Menu 2</li>
+			<li>Sub Menu 3</li>
+		</ul>
+	</li>
+	
+</ul>
+
+
+
+</body>
+</html>

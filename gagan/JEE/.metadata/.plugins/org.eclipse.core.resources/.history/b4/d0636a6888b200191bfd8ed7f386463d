@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Position Demo</title>
+
+<style>
+
+	div{
+		background: -webkit-linear-gradient(left, yellow,orange, yellow);
+		height: 200px;
+		width: 200px;
+		left:400px;
+		top:400px;
+		
+		
+	}
+
+</style>
+
+
+
+</head>
+<body>
+
+<div>
+</div>
+
+
+
+</body>
+</html>

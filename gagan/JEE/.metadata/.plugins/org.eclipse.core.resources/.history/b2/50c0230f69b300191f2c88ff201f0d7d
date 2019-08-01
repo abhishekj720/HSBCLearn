@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+
+  
+  function display(){
+	  var eid = document.getElementById("txtid").value;
+	  if(isNaN(eid)){
+		  alert("Eid is not a number");
+		  
+	  } else{
+		  doAjax(id);
+	  }
+  }
+  
+  function doAjax(id){
+	  var ajax = new XMLHttpRequest();
+	  var url = "http://localhost:8080/AjaxDemo/products.jason";
+	    
+  }
+  
+</script>
+</head>
+<body>
+<h1 align = "center">Product Details</h1>
+<hr/>
+<div align="center">
+	Product ID<input type= "text id = "textid"/>
+	<input type = "button" value= "search" onclick="display()"/>
+	</div>
+	
+	<div id ="err"></div>
+	
+	
+
+   Eid: <input type="text" id="txtid"/>
+   <input type="button" value="search" onclick="display()"/>
+   <table id = "tbl1" cellpadding="10" bgcolor="cyan" style="margin:0px auto; display:none; width:2 00px">
+	    <tr>
+			<td>EID</td>
+			<td id="teid"></td>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td id="tname"></td>
+		</tr>
+		<tr>
+			<td>salary</td>
+			<td id="tsal"></td>
+		</tr>
+		
+	</table>
+   
+</div>
+</body>
+</html>

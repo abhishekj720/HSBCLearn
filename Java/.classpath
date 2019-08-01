@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AssignmentSearch/src"/>
+	<classpathentry kind="src" path="calcRMIClient/src"/>
+	<classpathentry kind="src" path="CalcRMIServer/src"/>
+	<classpathentry kind="src" path="Circle/src"/>
+	<classpathentry kind="src" path="ConstructorChaining/src"/>
+	<classpathentry kind="src" path="DateDemo/src"/>
+	<classpathentry kind="src" path="EmpRMIClient/src"/>
+	<classpathentry kind="src" path="EmpRMIServer/src"/>
+	<classpathentry kind="src" path="Encapsulation/src"/>
+	<classpathentry kind="src" path="ExceptionDemo/src"/>
+	<classpathentry kind="src" path="FaCtAssign/src"/>
+	<classpathentry kind="src" path="FileDemo/src"/>
+	<classpathentry kind="src" path="Inheritance/src"/>
+	<classpathentry kind="src" path="InterfaceRTPDemo1/src"/>
+	<classpathentry kind="src" path="InterfaceRTPDemo2/src"/>
+	<classpathentry kind="src" path="ListDemo/src"/>
+	<classpathentry kind="src" path="MapAssignment/src"/>
+	<classpathentry kind="src" path="MapDemo/src"/>
+	<classpathentry kind="src" path="MultipleInheritance/src"/>
+	<classpathentry kind="src" path="OOPDemo/src"/>
+	<classpathentry kind="src" path="OverloadProj/src"/>
+	<classpathentry kind="src" path="OverrideDemo/src"/>
+	<classpathentry kind="src" path="RMIClient/src"/>
+	<classpathentry kind="src" path="RMIServer/src"/>
+	<classpathentry kind="src" path="RTPDemo/src"/>
+	<classpathentry kind="src" path="RTPDemo2/src"/>
+	<classpathentry kind="src" path="SetDemo/src"/>
+	<classpathentry kind="src" path="StructureDemo/src"/>
+	<classpathentry kind="src" path="ThreadDemo/src"/>
+	<classpathentry kind="src" path="ThreadSync/src"/>
+	<classpathentry kind="src" path="WrapperDemo/src"/>
+	<classpathentry kind="output" path="AssignmentSearch/bin"/>
+</classpath>

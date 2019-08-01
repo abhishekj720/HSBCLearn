@@ -1,0 +1,43 @@
+function validate(){
+	var name = frm1.txtname.value;
+	var age =  frm1.txtage.value;
+	var email =  frm1.txtemail.value;
+	var res = false;
+	
+	if(!validateName(name)){
+		document.getElementById("err1").innerHTML="Name must contain 3 to 15 alphabets";
+		res = false;
+		
+	}
+	
+	
+	return res;
+	
+	
+}
+
+
+function validateName(name){
+	var namepatt = /^[a-zA-Z]{3,15}$/;
+	return namepatt.test(name);
+	
+}
+
+function validateAge(age){
+	var agepatt = /^[0-9]{1,2}$/;
+	return agepatt.test(age);
+	
+}
+
+
+function validateEmail(email){
+	var emailpatt = /^[a-zA-Z]+[@][a-z]+[.](com|co.in)$/;
+	return emailpatt.test(email);
+}
+
+
+
+
+
+
+

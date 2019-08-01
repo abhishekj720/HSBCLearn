@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - Catlog</title>
+<link href="hsbc.css" rel= "stylesheet">
+<link href="Catlog.css" rel= "stylesheet">
+<link href = "images/logo.png" rel = "icon">
+
+
+</head>
+<body>
+
+<header>
+	Palmeto Mobiles
+</header>
+
+<article>
+	<h2>Palmeto Catlog</h2>
+	<table>
+	<thead>
+	<tr>
+	<th>Product ID</th>
+	<th>Product Name</th>
+	<th>Product Description</th>
+	<th>Product Price</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	<tr>
+	<td><img src = "images/mobile1.jpg"/><td>
+	<td>Samsung Galaxy</td>
+	<td>Lorem ipsum Lorem ipsum Lorem ipsum</td>
+	<td>INR 15000</td>
+	</tr>
+	
+	<tr>
+	<td><img src = "images/mobile2.jpg"/><td>
+	<td>Samsung Note</td>
+	<td>Lorem ipsum Lorem ipsum Lorem ipsum</td>
+	<td>INR 25000</td>
+	</tr>
+	
+	<tr>
+	<td><img src = "images/mobile3.jpg"/><td>
+	<td>Samsung DUOS</td>
+	<td>Lorem ipsum Lorem ipsum Lorem ipsum</td>
+	<td>INR 30000</td>
+	</tr>
+	
+	<tr>
+	<td><img src = "images/mobile4.jpg"/><td>
+	<td>Iphone i7</td>
+	<td>Lorem ipsum Lorem ipsum Lorem ipsum</td>
+	<td>INR 75000</td>
+	</tr>
+	
+	<tr>
+	<td><img src = "images/mobile5.jpg"/><td>
+	<td>Mobile Five</td>
+	<td>Lorem ipsum Lorem ipsum Lorem ipsum</td>
+	<td>INR 20000</td>
+	</tr>
+	
+	</tbody>
+	
+	<tfoot>
+	<tr>
+	<td colspan="3" align = "center"></td>
+	
+	</tr>
+	
+	</tfoot>
+	
+	
+	</table>
+	
+</article>
+<footer>
+	<div>&copy;copyright reserved 2019</div>
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>

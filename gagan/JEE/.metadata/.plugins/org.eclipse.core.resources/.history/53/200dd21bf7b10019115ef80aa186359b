@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Palmeto - home</title>
+<link href="hsbc.css" rel= "stylesheet">
+<link href = "images/logo.png" rel = "icon">
+
+</head>
+<body>
+
+<header>
+	Palmeto Mobiles
+</header>
+
+<article>
+	<h2>Home</h2>
+	<nav>
+	<div><a href = "catlog.html">Product Catalog</a></div>
+	<div><a href = "gallery.html">Product Gallery</a></div>
+	<div><a href = "order.html">Order Product</a></div>
+	<div><a href = "registration.html">Registration</a></div>
+	<div><a href = "contactus.html">Contact Us</a></div>
+	</nav>
+	
+	<article>
+	<section>
+	<video src = "samsung.mp4"/>
+	
+	
+	</section>
+	
+	<aside>
+	
+	</aside>
+	<img src ="images/mobile1.jpg"/>
+	<ul>
+	<li>Facebook</li>
+	<li>Twitter</li>
+	<li>LinkedIn</li>
+	<li>Instagram</li>
+	</ul>
+	
+	</article>
+	
+</article>
+<footer>
+	<div>&copy;copyright reserved 2019</div>
+	<a href="home.html"><img src="images/home.jpg"/></a>
+</footer>
+
+
+</body>
+</html>

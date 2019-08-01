@@ -1,0 +1,46 @@
+table{
+	margin:0px auto;  /* centering the block element */
+	border-collapse: collapse;  /*cellspacing - 0*/
+	
+}
+
+table img{
+	height: 75px;
+	width: 100px;
+	
+}
+
+th, td{
+	padding: 10px;
+}
+
+thead tr{
+	background-color: #4698c8;
+	color: white;
+	
+}
+
+/* pseudo selector starts with colon*/
+tbody tr:nth-child(odd){
+	background-color: wheat;
+}
+
+tbody tr:nth-child(even){
+	background-color: #87ceeb;
+}
+
+
+thead tr:hover, tbody tr:hover, tfoot tr:hover {
+	background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+

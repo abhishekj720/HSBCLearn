@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+
+	function doParse()
+	{
+		var jstring='{"ename":"ram","esal":8000,"dept":"hr"}';
+		var obj = JSON.parse(jstring);
+		console.log(obj);
+		alert(obj.ename) ;
+		
+	}
+	
+	function doStringify()
+	{
+		var jobj={ename:"ram",esal:8000};
+		var str = JSON.stringify(jobj);
+		console.log(str);
+		
+		
+		/* alert(JSON.stringify(jobj)); */
+		
+	}
+	
+</script>
+</head>
+<body>
+<h1>JSon Parse and Stringify</h1> 
+<hr/>
+<input type="button" value="parseToJSON" onclick="doParse()"/>
+<input type="button" value="parseToString" onclick="doStringify()"/>
+</body>
+</html>

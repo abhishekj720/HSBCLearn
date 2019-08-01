@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1 align = "center">User Details</h1>
+<hr/>
+<div align = "center">
+	User ID<input type = "text" id = "txtid">
+	<input type = button value = "search user" onclick="searchUser">
+	</div>
+	
+
+
+</div>
+
+
+
+</body>
+</html>
