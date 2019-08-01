@@ -1,0 +1,40 @@
+<%@include file="Meta.jsp"%>
+<html>
+<%@include file="HeadSection.jsp"%>
+<body>
+	<%@include file="Header.jsp"%>
+	<h2>Update Profile</h2>
+	<form action="ProfileSubmit.jsp">
+		<table>
+			<tr>
+				<th>Name</th>
+				<td><input type="text" name="txtname" /></td>
+			</tr>
+			<tr>
+				<th>Skills</th>
+				<td><input type="checkbox" name="cskskills" value="java" />java<br />
+					<input type="checkbox" name="cskskills" value="jee" />jee<br /> <input
+					type="checkbox" name="cskskills" value="spring" />spring<br /> <input
+					type="checkbox" name="cskskills" value="hibernate" />hibernate<br />
+					<input type="checkbox" name="cskskills" value="angular" />angular<br />
+					<input type="checkbox" name="cskskills" value="python" />python<br />
+				</td>
+			</tr>
+			<tr>
+				<th>Locations</th>
+				<td><select name="cbolocations" multiple>
+						<option value="chennai" selected>Chennai</option>
+						<option value="hyderabad" selected>Hyderabad</option>
+						<option value="bangalore" selected>Bangalore</option>
+						<option value="pune" selected>Pune</option>
+						<option value="gurgaon" selected>Gurgaon</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" /></td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>

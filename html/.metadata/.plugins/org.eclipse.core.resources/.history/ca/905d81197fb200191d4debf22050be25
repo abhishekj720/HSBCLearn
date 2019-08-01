@@ -1,0 +1,45 @@
+@charset "UTF-8";
+#gallery{
+	display:flex;
+	width:90%;
+	margin:0px auto;
+	flex-wrap:wrap; 	
+}
+#gallery img{
+	width:200px;
+	height:200px;
+	
+}
+#gallery div{
+	border:1px solid black;
+	background-color:wheat;
+	margin:10px;
+	padding:10px;
+	border-radius:5px;
+	box-shadow:5px 5px 5px black;
+}
+
+.price{
+	color:gray;
+	text-decoration:line-through;
+}
+.brand{
+	font-weight:bold;
+	color:#4698c8;
+}
+#gallery ul{
+	list-style:none;
+}
+@media only screen and (mas-width:600px){
+	#gallery{
+	width:100%;
+	}
+	#gallery div{
+	display:block;
+	width:100%;
+	text-align:center;
+	}
+	#gallery img{
+	width:80%;
+	}
+}

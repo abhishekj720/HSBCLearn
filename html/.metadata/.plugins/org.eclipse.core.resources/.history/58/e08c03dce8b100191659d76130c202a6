@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" keywords="palmeto, corporate training">
+<title>Palmeto - Registration</title>
+<link href="hsbc.css" rel=stylesheet>
+<link href="Catalog.css" rel=stylesheet>
+<link href="Gallery.css" rel=stylesheet>
+<link href="frm.css" rel=stylesheet>
+<link href="images/logo.png" rel="icon">
+
+</head>
+<body>
+	<header>
+		Palmeto Mobiles
+	</header>
+	<article>
+		<h2>Registration</h2>
+		<form>
+			<table id="frm">
+				<tr>
+					<td class="title">User Name</td>
+					<td class="data"><input type="text" name="uname" /></td>
+				</tr>
+				<tr>
+					<td class="title">Password</td>
+					<td class="data"><input type="password" name="pwd" /></td>
+				</tr>
+				<tr>
+					<td class="title">Gender</td>
+					<td clss="data"><input type="radio" name="gender" />male
+					<input type="radio" name="gender" />female
+					</td>
+				</tr>
+			</table>
+		</form>
+	</article>
+	<footer>
+	&copy; copyright reserved 2019
+	<a href="home.html"><img src = "images/home.jpg"/>
+		
+	</footer>
+</body>
+</html>

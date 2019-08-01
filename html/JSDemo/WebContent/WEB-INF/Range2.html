@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+  #div1{
+     height: 50px;
+     width: 50px;
+     border: 1px solid red;
+     margin: auto auto;
+     padding: 10px;
+     background: -webkit-radial-gradient(red, orange,yellow);
+     background: -ms-radial-gradient(red, orange,yellow);
+     background: -moz-radial-gradient(red, orange,yellow);
+  }
+  
+</style>
+<script>
+  function zoom(val){
+	 document.getElementById("txtrange").value=val;
+	 var elem = document.getElementById("div1");
+	 elem.style.height=val*50+'px';
+	 elem.style.width=val*50+'px';
+	  
+  }
+
+</script>
+</head>
+<body>
+<h1 align="center">Zoom Demo</h1>
+<hr/>
+<div style="width:300px; height:300px;margin: 0 auto">
+   <div id="div1"></div>
+</div>
+<hr/>
+<div style="width:200px;margin: 0 auto">
+   <input type="range" min="1" max="5" value="1" onchange="zoom(this.value)"/>
+   <input type="text" id = "txtrange" style="width:50px;"/>
+</div>
+
+
+</body>
+</html>

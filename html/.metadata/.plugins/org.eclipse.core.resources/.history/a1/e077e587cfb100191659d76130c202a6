@@ -1,0 +1,26 @@
+@charset "UTF-8";
+header,footer{
+	text-align:center;
+}
+header{
+	background-color:#4698c8
+	color:white;
+}
+footer{
+	background-color:red;
+	padding:10px;
+	color:white;
+}
+footer img{
+	height:50px;
+	width:50px;
+}
+article{
+	min-height:550px;
+}
+
+article h2{
+	text-align:center;
+	color: red;
+	
+}

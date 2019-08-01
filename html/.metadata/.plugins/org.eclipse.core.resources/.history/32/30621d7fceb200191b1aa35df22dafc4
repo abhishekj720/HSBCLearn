@@ -1,0 +1,17 @@
+function validate(){
+	var name=frm1.txtname.value;
+	var age=frm1.txtage.value;
+	var email=frm1.txtemail.value;
+}
+function validateName(name){
+	var namepatt=/^[a-zA-Z]{3,15}$/;
+	return namepatt.test(name);
+}
+function validateAge(age){
+	var agepatt=/^[0-9]{1,2}$/;
+	return agepatt.test(age);
+}
+function validateEmail(email){
+	var emailpatt=/^[a-zA-Z]+[@][a-z]+[.]{com|co.in}$/;
+	return emailpatt.test(email);
+}

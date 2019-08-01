@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#err{
+color:red;
+text-align:center;
+}
+</style>
+<script>
+
+  function search(){
+	  var elem=document.getElementById("txtid").value;
+	  if(isNaN(id)){
+		  alert("EID is not a number");
+	  }
+	  else{
+		  doAjax(id);	 
+		}
+  }
+  
+  function doAjax(id){
+	  var ajax=new XMLHttpRequest();
+	  var url="http://localhost:8080/AjaxDemo1/products.json";
+	  ajax.open("GET",url,true);
+	  ajax.send();
+	  ajax.onreadystatechange=function(){
+		  if(ajax.readystate==4 && ajax.status==200){
+			  var str=ajax.responseText;
+			  var json=JSON.parse(str);
+			  if(json[id]!==undefined){
+				document.getElementById("tbl1").style.display="block";
+				document.getElementById("tpeid").innerHTML=json[id].pid;
+				document.getElementById("tpname").innerHTML=json[id].pname;
+				document.getElementById("tprice").innerHTML=json[id].price;
+			  }			  
+			  else{
+				  document.getElementById("tbl1").style.display="none";
+				  document.getElementById("err").style.display="block";
+				  document.getElementById("err").innerHTML="Product not found"+id;
+				  
+			  }
+		  }
+	  };
+  }
+</script>
+</head>
+<body>
+<h1 align="center">Product details</h1>
+
+<div align="center">
+Product ID: <input type="text" id="txtid"/>
+<input type="button" value="search" onclick="search()"/>
+</div>
+<div id="err"></div>
+<div align="center">
+   <table id="tbl1" cellpadding="10" bgcolor="cyan" style="margin:0px auto;display:none;width:200px" >
+	    <tr>
+			<td>Product ID</td>
+			<td id="tpeid"></td>
+		</tr>
+		<tr>
+			<td>Product Name</td>
+			<td id="tpname"></td>
+		</tr>
+		<tr>
+			<td>Product Price</td>
+			<td id="tprice"></td>
+		</tr>
+		
+	</table>
+   
+</div>
+</body>
+</html>

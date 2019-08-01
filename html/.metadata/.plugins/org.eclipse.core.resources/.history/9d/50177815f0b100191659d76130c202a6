@@ -1,0 +1,29 @@
+@charset "UTF-8";
+#frm{
+	margin:0px auto;
+	border-collapse:collapse;
+}
+th,td{
+	padding:10px;
+}
+.title{
+	background-color:#4698c8;
+
+	width:100px;
+	padding:10px;
+	color:white;
+}
+.data{
+	background-color:cyan;
+
+	width:200px;
+	padding:10px;
+}
+
+.row{
+	display:flex;
+}
+#frm2{
+	margin:0px auto;
+	width:300px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Background Demo</title>
+<style>
+body{
+min-height:600px;
+background-image: url('../images/bg1.jpg');
+background-repeat:no-repeat;
+background-position:center;
+background-attachment:fixed;
+}
+div{
+background:-webkit-linear-gradient(left,blue,#4698c8,white,yellow);
+margin:10px;
+height:500px;
+}
+</style>
+</head>
+<body>
+<h1>Background Demo</h1>
+<hr/>
+<div></div>
+<div></div>
+
+</body>
+</html>

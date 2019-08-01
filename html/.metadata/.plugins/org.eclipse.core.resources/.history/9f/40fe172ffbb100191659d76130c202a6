@@ -1,0 +1,41 @@
+@charset "UTF-8";
+nav{
+	margin:0px auto;
+	width:50%;
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.btn{
+	margin:10px;
+	text-align:center;
+}
+.lwidth{
+	width:150px;
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:5px;
+	box-shadow:5px 5px 5px black;
+}
+nav a{
+	text-decoration:none;
+}
+#home{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+#home section{
+	text-align:center;
+	width:80%;
+}
+video{
+	height:300px;
+	width:400px;
+}
+#news{
+	column-count:3;
+	column-gap:5px;
+	text-align:left;
+}

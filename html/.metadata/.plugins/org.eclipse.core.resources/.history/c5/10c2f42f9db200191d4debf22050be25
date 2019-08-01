@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#div1, #div2{
+  width: 300px;
+  border: 1px solid red;
+  margin-bottom:20px;
+}
+</style>
+<script>
+  function display(elem){
+	  if(element.innerHTML='read more'){
+		  document.getElementByID("div2").style.display="block";
+		element.innerHTML="readless";  
+	  }
+	  else{
+		  document.getElementByID("div2").style.display="none";
+			element.innerHTML="readmore";  
+	  }
+	  
+  }
+
+</script>
+
+</head>
+<body>
+<h1>Read more/less</h1>
+<hr/>
+<div id="div1">
+loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum
+loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum
+loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum loren ipsum
+<a href="#" id="link1" onclick="display(this)">read more</a>
+</div>
+<div id="div2" style="display:none">
+sapient technologies sapient technologies sapient technologies sapient technologies sapient technologies
+sapient technologies sapient technologies sapient technologies sapient technologies sapient technologies
+sapient technologies sapient technologies sapient technologies sapient technologies sapient technologies
+sapient technologies sapient technologies sapient technologies sapient technologies sapient technologies
+
+</div>
+</body>
+</html>

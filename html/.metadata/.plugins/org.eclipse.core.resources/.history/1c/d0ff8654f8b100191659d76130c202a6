@@ -1,0 +1,6 @@
+@charset "UTF-8";
+nav{
+	margin:0px auto;
+	width:80;
+	
+}

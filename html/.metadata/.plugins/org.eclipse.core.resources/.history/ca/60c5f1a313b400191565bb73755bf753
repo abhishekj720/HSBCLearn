@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function report(dept) {
+
+doAjax(dept)
+
+}
+
+function doAjax(dept)
+{
+var ajax = new XMLHttpRequest()
+var url = "http://localhost:8080/AjaxDemo/emps.json"
+ajax.open("GET", url, true);
+ajax.send();
+ajax.onreadystatechange = function() {
+if (ajax.readyState == 4 && ajax.status == 200) {
+var str = ajax.responseText;
+var json = JSON.parse(str);
+var arr = json[dept];
+for(var i=0;i<arr.length;i++)
+{
+document.getElementById("err").innerHTML += arr[i].ename + " "; 
+}
+}
+};
+}
+</script>
+</head>
+<body>
+<div align = center>
+<select onchange="report(this.value)">
+  <option value="HR">HR</option>
+  <option value="Production">Production</option>
+  <option value="Finance">Finance</option>
+</select>
+</div>
+<div align = "center" id = "err"></div>
+</body>
+</html>

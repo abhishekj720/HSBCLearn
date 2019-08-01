@@ -1,0 +1,34 @@
+<%@include file="Meta.jsp"%>
+<html>
+<%@include file="HeadSection.jsp"%>
+<body>
+<%@include file="Header.jsp"%>
+<h2>Update Profile</h2>
+<form>
+<table>
+<tr>
+<th>Name</th>
+<td><input type="text" name="txtname"/></td>
+</tr>
+<tr>
+<th>Skills</th>
+<td></td>
+</tr>
+<tr>
+<th>Locations</th>
+<td><select name="cbolocations">
+<option value="chennai" selected>Chennai</option>
+<option value="hyderabad" selected>Hyderabad</option>
+<option value="bangalore" selected>Bangalore</option>
+<option value="pune" selected>Pune</option>
+<option value="gurgaon" selected>Gurgaon</option>
+</select></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit"/></td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>

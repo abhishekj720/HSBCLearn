@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+var jarr=[{eid:1001,ename:'ram',sal:6000},
+			{eid:1002,ename:'tom',sal:26000},
+			{eid:1003,ename:'sam',sal:16000},];
+function display(){
+	var html="<table cellpadding='10' bgcolor=cyan style='margin 0px auto'>";
+	for(var idx=0;idx<jarr.length;++idx)	
+	{
+			html+="<tr>";
+			htnl+="<td>";
+			html+="<td>"+jarr[idx].eid+"</td>";
+			html+="<td>"+jarr[idx].ename+"</td>";
+			html+="<td>"+jarr[idx].sal+"</td>";
+			html+="</td>";
+		}
+		document.getElementById("div1").innerHTML=html;
+		
+}
+	
+	
+</script>
+</head>
+<body>
+<h1>Array of JSon </h1>
+<hr/>
+
+<div align="center">
+	<input type="button" id="btn1" value="populate" onclick="display()"/>
+</div>
+<div id="div1">
+</div>
+</body>
+</html>

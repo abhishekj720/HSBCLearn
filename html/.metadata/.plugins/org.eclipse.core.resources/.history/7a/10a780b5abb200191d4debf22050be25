@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#div1{
+  
+}
+</style>
+<script>
+  var tnarr=["chennai", "madurai", "trichy"];
+  var uparr = ["lucknow", "noida", "mathura"];
+  var hrarr=["gurgaon", "panipet", "ambala"];
+  function showCities(state){
+	  document.getElementById("div1").innerHTML="";
+	  switch(state){
+	  case "tn":
+		  populate(tnarr);
+		  break;
+	  case "up":
+		  populate(uparr);
+		  break;
+	  case "haryana":
+		  populate(hrarr);
+		  break;
+		default:
+			alert("Select state");
+	  }
+  }
+  function populate(arr){
+	  var html="City : <select>";
+	  html+='<option value="">----select city----</option>';
+	  for(var idx=0;idx<arr.length;++idx){
+		  html+='<option="'+arr[idx]+'">'+arr[idx]+'</option>';
+	  }
+	  html+="</select>";
+	  document.getElementById("div1").innerHTML=html;
+  }
+</script>
+</head>
+<body>
+<h1>States and its cities</h1>
+<hr/>
+<table cellpadding="10" bgcolor="cyan">
+<tr>
+<td>State</td>
+<td>
+<select id="state" onchange="showCities(this.value)">
+   <option value="">--select state</option>
+   <option value="tn">tn</option>
+   <option value="up" selected>up</option>
+   <option value="haryana">haryana</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>City</td>
+<td id="div1"></td>
+</table>
+
+</div>
+<div id="div1" style="padding:20px;"></div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+article{
+  display:flex;
+}
+.cls1{
+   width:200px;
+   padding:10px;
+   border:1px solid red;
+   background-color:wheat;
+   box-shadow:5px 5px 5px black;
+   margin:10px;
+}
+ .drag{
+   background-color: orange;
+   padding:10px;
+   margin:10px;
+ }
+</style>
+<script>
+function startdrag(event) {
+event.dataTransfer.setData("elementID", event.target.getAttribute("id"));
+	
+}
+function dropme(event) {
+	var src=event.dataTransfer.getData("elementID");
+	event.target.appendChild(document.getElementById(src));
+	
+
+}
+function allowtodrop(event) {
+	event.preventDefault();
+}
+</script>
+</head>
+<body>
+<h1>Drag Drop Demo</h1>
+<article>
+     <section id="s1" class="cls1">
+		   <div id="div1" class="drag" draggable="true" ondragstart="startdrag(event)">insurance</div>
+		   <div id="div2" class="drag" draggable="true" ondragstart="startdrag(event)">medical</div>
+		   <div id="div3" class="drag" draggable="true" ondragstart="startdrag(event)">banking</div>
+		   <div id="div4" class="drag" draggable="true" ondragstart="startdrag(event)">e-cart</div>
+		   <div id="div5" class="drag" draggable="true" ondragstart="startdrag(event)">e-shopping</div>
+	 </section>
+		
+	  <section id="s2" class="cls1" ondragover="allowtodrop(event)" 
+				ondrop="dropme(event)">
+	  </section>
+</article>
+</body>
+</html>

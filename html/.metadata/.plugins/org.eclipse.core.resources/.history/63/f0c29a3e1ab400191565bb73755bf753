@@ -1,0 +1,26 @@
+<%@include file="Meta.jsp" %>
+<html>
+<%@include file="HeadSection.jsp" %>
+<body>
+<%@include file="Header.jsp" %>
+<h1 align="center">Tax Calculation</h1>
+<hr/>
+<form action ="tax">
+<table cellpadding="10" bgcolor="wheat" style="margin:0px auto">
+	<tr>
+		<td>Name</td>
+		<td>
+		<input type="text" name="txtname"/>
+		</td>
+	</tr>
+	<tr>
+		<td>Annual Income</td>
+		<td><input type="text" name="txtincome"/></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><input type="submit" value="calc tax"/></td>
+
+	</tr>
+</form>
+</body>
+</html>

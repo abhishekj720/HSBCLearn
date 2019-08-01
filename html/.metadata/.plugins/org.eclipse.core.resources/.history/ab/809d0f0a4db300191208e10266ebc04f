@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+var obj{
+	
+}
+	
+</script>
+</head>
+<body>
+	<h1 align="center">Number Conversion</h1>
+	<hr />
+	<table cellpadding="10" bgcolor="#e3e3e3">
+		<tr>
+			<td>Decimal Number</td>
+			<td><input type="text" id="txtnum" /></td>
+		</tr>
+		<tr>
+			<td>Choose Conversion</td>
+			<td><select onchange="doProcess(this.value)">
+					<option value="binary">binary</option>
+					<option value="octal">octal</option>
+					<option value="hexa">hexa</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Result</td>
+			<td id="result"></td>
+		</tr>
+	</table>
+
+</body>
+</html>

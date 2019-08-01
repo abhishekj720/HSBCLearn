@@ -1,0 +1,18 @@
+<%@include file="Meta.jsp"%>
+<html>
+<%@include file="HeadSection.jsp"%>
+<body>
+	<%@include file="Header.jsp"%>
+	<h2>EMI Calculator</h2>
+	<table>
+		<tr>
+			<th>EMI</th>
+			<td><%=request.getAttribute("emi") %></td>
+		</tr>
+		<tr>
+			<th>EMI</th>
+			<td><%=request.getAttribute("comp") %></td>
+		</tr>
+	</table>
+</body>
+</html>

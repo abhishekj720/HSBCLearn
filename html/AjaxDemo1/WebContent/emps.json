@@ -1,0 +1,12 @@
+{"hr":[{"eid":1001, "ename":"ram kumar", "sal":33000},
+       {"eid":1002, "ename":"john paul", "sal":23000},
+       {"eid":1003, "ename":"peter", "sal":36000}
+      ],
+      
+ "production":[{"eid":1004, "ename":"teja", "sal":24000},
+       {"eid":1005, "ename":"vinay", "sal":34000},
+       {"eid":1006, "ename":"vikas", "sal":39000}],
+       
+ "finance":[{"eid":1007, "ename":"krisna", "sal":29000},
+       {"eid":1008, "ename":"balram", "sal":28000},
+       {"eid":1009, "ename":"akbar", "sal":32000}]}

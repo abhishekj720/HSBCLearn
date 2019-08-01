@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" keywords="palmeto, corporate training">
+<title>Palmeto - Contact Us</title>
+</head>
+<body>
+	<header>
+		<h1>Palmeto Mobiles</h1>
+	</header>
+	<article>
+		<h2>Contact Us</h2>
+		<div>
+		<img src = "images/contactus.jpg"/><br/>
+		<span>Vaishnavi Cynosure</span>
+		<span>24, Gachibowli Road</span>
+		<span>Hyderabad</span>
+		<span>Landmark: near A<sup>2</sup>B</span>
+		<span>Mobile: 1234567891</span>
+		<span><a href="mailto:hr@palmeto.com">Send Mail</a></span>
+		</div>
+	</article>
+	<footer>
+		&copy; copright reserved 2019
+		<a href="home.html"><img src = "images/home.jpg"/></a>
+	</footer>
+</body>
+</html>

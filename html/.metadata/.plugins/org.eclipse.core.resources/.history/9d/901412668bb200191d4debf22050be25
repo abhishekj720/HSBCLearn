@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#menu{
+	display:flex;
+}
+.submenu{
+	display:none;
+	background-color:blue;
+	padding:10px;
+	list-style:none;
+}
+.submenu li{
+background-color:blue;
+	padding:10px;
+	color:white;
+	border-bottom:2px;
+}
+#menu>li{
+margin:10px;
+}
+#menu>li{
+margin:10px;
+height:100px;
+width:100px;
+padding:10px;
+background:-webkit-linear-gradient(left,red,orange,yellow,red);
+box-shadow:5px 5px 5px black;
+}
+#menu>li:hover .submenu{
+display:block;
+}
+</style>
+</head>
+<body>
+<h1>Menus and submenus</h1>
+<hr/>
+<ul id="menu">
+<li><a href="">Menu1</li></a>
+	<ul class="submenu">
+	<li>Sub menu1</li>
+	<li>Sub menu2</li>
+	<li>Sub menu3</li>
+	</ul>
+<li><a href="">Menu2</li></a>
+	<ul class="submenu">
+	<li>Sub menu1</li>
+	<li>Sub menu2</li>
+	<li>Sub menu3</li>
+	</ul>
+<li><a href="">Menu3</li></a>
+	<ul class="submenu">
+	<li>Sub menu1</li>
+	<li>Sub menu2</li>
+	<li>Sub menu3</li>
+	</ul>
+<li><a href="">Menu4</li></a>
+	<ul class="submenu">
+	<li>Sub menu1</li>
+	<li>Sub menu2</li>
+	<li>Sub menu3</li>
+	</ul>
+</ul>
+</body>
+</html>

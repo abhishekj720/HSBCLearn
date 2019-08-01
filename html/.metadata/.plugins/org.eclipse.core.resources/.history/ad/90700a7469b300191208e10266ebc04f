@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+  var json = {1001:{"eid":1001, "ename":"akbar", "sal":23000},
+	           1002:{"eid":1002, "ename":"rama", "sal":13000},
+	           1003:{"eid":1003, "ename":"suresh", "sal":33000},
+	           1004:{"eid":1004, "ename":"joseph", "sal":53000},
+	           1005:{"eid":1005, "ename":"varun", "sal":43000}
+  };
+  
+  function display(){
+	  var elem=document.getElementById("txtid").value;
+	  if(isNaN(elem)){
+		  alert("EID is not a number");
+	  }
+	  else{
+		  doAjax(id);
+	 
+		}
+
+  }
+  function doAjax(id){
+	  var ajax=new XMLHttpRequest();
+	  var url="http://localhost:8080/AjaxDemo/products.json";
+  }
+</script>
+</head>
+<body>
+<h1 align="center">Product details</h1>
+
+<div align="center">
+Product ID: <input type="text" id="txtid"/>
+<input type="button" value="search" onclick="search()"/>
+</div>
+<div id="err"></div>
+<div align="center">
+   <table id="tbl1" cellpadding="10" bgcolor="cyan" style="margin:0px auto;display:none;width:200px" >
+	    <tr>
+			<td>Product ID</td>
+			<td id="tpeid"></td>
+		</tr>
+		<tr>
+			<td>Product Name</td>
+			<td id="tpname"></td>
+		</tr>
+		<tr>
+			<td>Product Price</td>
+			<td id="tprice"></td>
+		</tr>
+		
+	</table>
+   
+</div>
+</body>
+</html>

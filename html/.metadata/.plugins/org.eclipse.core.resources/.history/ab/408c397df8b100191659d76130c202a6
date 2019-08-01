@@ -1,0 +1,16 @@
+@charset "UTF-8";
+nav{
+	margin:0px auto;
+	width:60%;
+	display:flex;
+	
+}
+.btn{
+	margin:10px;
+}
+.lwidth{
+	width:100px;
+	padding:10px;
+	background-color:red;
+	color:white;
+}

@@ -1,0 +1,28 @@
+<%@include file="Meta.jsp"%>
+<html>
+<%@include file="HeadSection.jsp"%>
+<body>
+<%@include file="Header.jsp"%>
+<h2>Update Profile</h2>
+<form>
+<table>
+<tr>
+<th>Name</th>
+<td></td>
+</tr>
+<tr>
+<th>Skills</th>
+<td></td>
+</tr>
+<tr>
+<th>Locations</th>
+<td></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit"/></td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>

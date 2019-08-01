@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" keywords="palmeto, corporate training">
+<title>Palmeto - Catalog</title>
+<link href="hsbc.css" rel=stylesheet>
+<link href="images/logo.png" rel="icon">
+
+</head>
+<body>
+	<header>
+		Palmeto Mobiles
+	</header>
+	<article>
+		<h2>Product Catalog</h2>
+		<table>
+		<thead>
+			<tr>
+				<th>Product ID</th>
+				<th>Product Name</th>
+				<th>Product Desc</th>
+				<th>Product Price</th>
+			</tr>
+		</thead>
+		</table>
+	</article>
+	<footer>
+	&copy; copright reserved 2019
+	<a href="home.html"><img src = "images/home.jpg"/>
+		
+	</footer>
+</body>
+</html>

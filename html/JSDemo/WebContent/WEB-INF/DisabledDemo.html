@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function enableBtn(elem){
+	if(elem.checked)
+		document.getElementById("btn1").disabled=false;
+	else
+		document.getElementById("btn1").disabled=true;
+}
+
+</script>
+</head>
+<body>
+<h1>Disable/Enable Demo</h1>
+<hr/>
+<input type="checkbox" onclick="enableBtn(this)"/>Accept terms and conditions<br/>
+<br/>
+<br/>
+
+<input id="btn1" type="button" value="accept" disabled="disabled"/>
+
+
+</body>
+</html>

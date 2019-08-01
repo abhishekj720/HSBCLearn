@@ -1,0 +1,45 @@
+@charset "UTF-8";
+table{
+	margin:0px auto;/*centering the block element*/
+	border-collapse:collapse;/*cell spacing=0*/
+}
+table img{
+	height:75px;
+	width:100px;
+	transition:transform 2s;
+}
+th,td{
+	padding:10px;
+}
+footer{
+	background-color:red;
+	padding:10px;
+	color:white;
+	margin-top:10px;
+}
+thead tr{
+	background-color:#4698c8;
+	color:white;
+}
+tbody tr:nth-child(odd){
+	background-color:wheat;
+}
+thead tr:hover ,tfoot tr:hover , tbody tr:hover{
+	background-color:orange;
+}
+tfoot tr{
+	background-color:gray;
+	color:white;
+}
+@media only screen and(max-width:400px){
+	thead{
+	display:none;
+	}
+	td{
+	width:100%;
+	display:block;
+	}
+	.desc{
+	width:100%;
+	}
+}

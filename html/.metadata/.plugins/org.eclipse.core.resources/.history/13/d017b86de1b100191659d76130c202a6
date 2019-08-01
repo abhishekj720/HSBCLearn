@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" keywords="palmeto, corporate training">
+<title>Palmeto - Contact Us</title>
+<link href="hsbc.css" rel=stylesheet>
+<link href="Catalog.css" rel=stylesheet>
+<link href="images/logo.png" rel="icon">
+
+</head>
+<body>
+	<header>
+		Palmeto Mobiles
+	</header>
+	<article>
+		<h2>Contact Us</h2>
+	</article>
+	<footer>
+	&copy; copright reserved 2019
+	<a href="home.html"><img src = "images/home.jpg"/>
+		
+	</footer>
+</body>
+</html>

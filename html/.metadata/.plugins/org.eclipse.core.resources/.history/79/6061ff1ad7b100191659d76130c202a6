@@ -1,0 +1,38 @@
+@charset "UTF-8";
+table{
+	margin:0px auto;/*centering the block element*/
+	border-collapse:collapse;/*cell spacing=0*/
+}
+table img{
+	height:75px;
+	width:100px;
+}
+th,td{
+	padding:10px;
+}
+footer{
+	background-color:red;
+	padding:10px;
+	color:white;
+}
+thead tr{
+	background-color:#4698c8;
+	color:white;
+}
+tbody tr:nth-child(odd){
+	background-color:wheat;
+}
+thead tr:hover ,tfoot tr:hover , tbody tr:hover{
+	background-color:orange;
+}
+tfoot tr{
+	background-color:gray;
+	color:white;
+}
+footer img{
+	height:50px;
+	width:50px;
+}
+article{
+	min-height:550px;
+}

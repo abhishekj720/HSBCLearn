@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Menus and submenus</h1>
+<hr/>
+<ul>
+<li>Menu1</li>
+	<ul>
+	<li>Sub menu1</li>
+	<li>Sub menu2</li>
+	<li>Sub menu3</li>
+	</ul>
+<li>Menu2</li>
+	<ul>
+	<li>Sub menu1</li>
+	<li>Sub menu2</li>
+	<li>Sub menu3</li>
+	</ul>
+<li>Menu3</li>
+	<ul>
+	<li>Sub menu1</li>
+	<li>Sub menu2</li>
+	<li>Sub menu3</li>
+	</ul>
+<li>Menu4</li>
+	<ul>
+	<li>Sub menu1</li>
+	<li>Sub menu2</li>
+	<li>Sub menu3</li>
+	</ul>
+</ul>
+</body>
+</html>

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+#gallery{
+	display:flex;
+	width:80%;
+	margin:0px auto;
+}

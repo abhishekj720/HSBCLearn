@@ -1,0 +1,40 @@
+@charset "UTF-8";
+#frm{
+	margin:0px auto;
+	border-collapse:collapse;
+}
+th,td{
+	padding:10px;
+}
+.title{
+	background-color:#4698c8;
+
+	width:100px;
+	padding:10px;
+	color:white;
+}
+.data{
+	background-color:wheat;
+
+	width:200px;
+	padding:10px;
+}
+
+.row{
+	display:flex;
+}
+#frm2{
+	margin:0px auto;
+	width:300px;
+}
+@media only screen and(max-width:400px){
+	#frm2{
+	width:150px;
+}
+.title,.data{
+	background-color:white;
+	color:black;}
+input[type="reset"]{
+	display:none;
+}
+}

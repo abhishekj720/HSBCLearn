@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Background Demo</title>
+<style>
+body{
+min-height:600px;
+background-image: url('../images/bg1.jpg');
+background-repeat:no-repeat;
+}
+</style>
+</head>
+<body>
+<h1>Background Demo</h1>
+<hr/>
+
+</body>
+</html>

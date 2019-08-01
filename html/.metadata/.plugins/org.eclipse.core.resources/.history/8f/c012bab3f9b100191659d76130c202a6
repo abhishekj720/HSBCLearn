@@ -1,0 +1,26 @@
+@charset "UTF-8";
+nav{
+	margin:0px auto;
+	width:50%;
+	display:flex;
+	
+}
+.btn{
+	margin:10px;
+	text-align:center;
+}
+.lwidth{
+	width:150px;
+	padding:10px;
+	background-color:red;
+	color:white;
+	border-radius:5px;
+	box-shadow:5px 5px 5px black;
+}
+nav a{
+	text-decoration:none;
+}
+#home{
+	display:flex;
+	
+}

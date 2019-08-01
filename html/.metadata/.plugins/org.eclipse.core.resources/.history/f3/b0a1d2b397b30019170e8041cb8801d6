@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<script>
+
+function doAjax(dept){
+	var dept=document.getElementById()
+	  var ajax=new XMLHttpRequest();
+	  var url="http://localhost:8080/AjaxDemo1/emps.json";
+	  ajax.open("GET",url,true);
+	  ajax.send();
+	  ajax.onreadystatechange=function(){
+		  if(ajax.readyState==4 && ajax.status==200){
+			  var str=ajax.responseText;
+			  var json=JSON.parse(str);
+			  
+			 
+	  };
+}
+</script>
+<body>
+<h1 align="center">User Details</h1>
+<hr/>
+<div align="center">
+Department: <select onchange="doAjax(this.value)">
+					<option value="hr">hr</option>
+					<option value="pr">pr</option>
+					<option value="finance">finance</option>
+			</select>
+</div>
+<div id="err"></div>
+<table id="tbl1" cellpadding="10" bgcolor="cyan" style="margin:0px auto;display:none;width:300px" >
+	    <tr>
+			<td>User ID</td>
+			<td id="uid"></td>
+		</tr>
+		<tr>
+			<td>User Name</td>
+			<td id="uname"></td>
+		</tr>
+		<tr>
+			<td>sal</td>
+			<td id="sal"></td>
+		</tr>
+		<tr>
+
+	</table>
+</body>
+</html>

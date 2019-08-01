@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+var jarr=[{eid:1001,ename:'ram',sal:6000},
+			{eid:1002,ename:'tom',sal:26000},
+			{eid:1003,ename:'sam',sal:16000},];
+	
+	
+	
+</script>
+</head>
+<body>
+<h1>Array of JSon </h1>
+<hr/>
+
+<div align="center">
+	<input type="button" id="btn1" value="populate" onclick="display()"/>
+</div>
+<div id="div1">
+</div>
+</body>
+</html>

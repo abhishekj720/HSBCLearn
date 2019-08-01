@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" keywords="palmeto, corporate training">
+<title>Palmeto - Order</title>
+<link href="hsbc.css" rel=stylesheet>
+<link href="frm.css" rel=stylesheet>
+<link href="images/logo.png" rel="icon">
+
+</head>
+<body>
+	<header>
+		Palmeto Mobiles
+	</header>
+	<article>
+		<h2>Order Mobile</h2>
+		<form>
+		<section id="frm2">
+		<div class="row">
+			<div class="title">Product Name</div>
+				<div class="data"><input type="text" required name="pname" list="plist"/>
+					<datalist id="plist">
+						<option value="samsung galaxy">
+						<option value="samsung DUOS">
+						<option value="samsung A5">
+						<option value="iphone 5c">
+						<option value="nokia lumia">
+						<option value="nokia 1100">
+						<option value="redmi 6pro">
+					</datalist>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="title">Panel Color</div>
+				<div class="data"><input type="color" required name="pclr"/></div>
+			</div>
+			<div class="row">
+				<div class="title">Quantity</div>
+				<div class="data"><input type="number" required name="quantity" min="1" max="5"/></div>
+			</div>
+			<div class="row" style="background-color:wheat">
+				<div class="title"><input type="submit" value="order"/></div>
+				<div class="data"><input type="reset"/></div>
+			</div>
+		</section>
+		</form>
+	</article>
+	<footer>
+	&copy; copyright reserved 2019
+	<a href="home.html"><img src = "images/home.jpg"/>
+		
+	</footer>
+</body>
+</html>

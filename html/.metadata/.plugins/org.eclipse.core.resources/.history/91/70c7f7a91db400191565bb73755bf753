@@ -1,0 +1,22 @@
+<%@include file="Meta.jsp"%>
+<html>
+<%@include file="HeadSection.jsp"%>
+<body>
+<%@include file="Header.jsp"%>
+<h2>Your updated skills and locations</h2>
+<table>
+<tr>
+<th>Name</th>
+<td><%=request.getParameter("txtname") %></td>
+</tr>
+<tr>
+<th>Skills</th>
+<td></td>
+</tr>
+<tr>
+<th>Locations</th>
+<td></td>
+</tr>
+</table>
+</body>
+</html>

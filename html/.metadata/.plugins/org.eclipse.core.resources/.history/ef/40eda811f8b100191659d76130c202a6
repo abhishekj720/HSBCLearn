@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" keywords="palmeto, corporate training">
+<title>Palmeto - Home</title>
+<link href="hsbc.css" rel=stylesheet>
+<link href="hOME.css" rel=stylesheet>
+<link href="images/logo.png" rel="icon">
+
+</head>
+<body>
+	<header>
+		Palmeto Mobiles
+	</header>
+	<article>
+		<h2>Home</h2>
+		<nav>
+		<div class="btn"><a href="Catalogue.html"><div class="lwidth">Product Catalog</div></a></div>
+		<div class="btn"><a href="Gallery.html"><div class="lwidth">Product Gallery</div></a></div>
+		<div class="btn"><a href="Order.html"><div class="lwidth">Order Product</div></a></div>
+		<div class="btn"><a href="Registration.html"><div class="lwidth">registration</div></a></div>
+		<div class="btn"><a href="ContactUs.html"><div class="lwidth">Contact Us</div></a></div>
+		</nav>
+		<article>
+		<section>
+		<video src="samsung.mp4"/>
+		<div>dslkjfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffhd
+		fdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+		dfffffffffffffffffffffgerrrrrrrrrrrrrrrrrrrrwassssssssssssssssssssssssssssssssssssssssssssssssssssssaddddddddddadddddd
+		asddddddddddddddddddddddddddddddwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+		waqwwahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+		weweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweweewewewewe
+		weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeweewwewewewewewewe
+		</div>
+		</section>
+		<aside>
+		<img src="images/mobile1.jpg"/>
+		<ul>
+		<li>facebook</li>
+		<li>twitter</li>
+		<li>linkedin</li>
+		<li>instagram</li>
+		</ul>
+		</aside>
+		</article>
+	</article>
+	<footer>
+	&copy; copyright reserved 2019
+	<a href="home.html"><img src = "images/home.jpg"/>
+		
+	</footer>
+</body>
+</html>

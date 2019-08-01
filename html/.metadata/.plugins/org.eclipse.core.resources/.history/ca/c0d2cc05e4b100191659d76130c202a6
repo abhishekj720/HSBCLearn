@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#gallery{
+	display:flex;
+	width:80%;
+	margin:0px auto;
+	flex-wrap:wrap; 	
+}
+#gallery img{
+	width:200px;
+	height:200px;
+}
+#gallery div{
+	border:1px solid black;
+	background-color:wheat;
+	
+}

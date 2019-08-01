@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" keywords="palmeto, corporate training">
+<title>Palmeto - Catalog</title>
+<link href="hsbc.css" rel=stylesheet>
+<link href="Catalog.css" rel=stylesheet>
+<link href="images/logo.png" rel="icon">
+
+</head>
+<body>
+	<header>
+		Palmeto Mobiles
+	</header>
+	<article>
+		<h2>Product Catalog</h2>
+		<table >
+		<thead>
+			<tr>
+				<th>Product IMG</th>
+				<th>Product Name</th>
+				<th>Product Desc</th>
+				<th>Product Price</th>
+			</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td><img src="images/mobile1.jpg"></td>
+		<td>Samsung Galaxy</td>
+		<td>Lotdsjhdsduysdsfsfsdfsdfsdfdsfdsfdsfdsfsfsssdweew</td>
+		<td>INR.15000/-</td>
+		</tr>
+		<tr>
+		<td><img src="images/mobile2.jpg"></td>
+		<td>Samsung Note</td>
+		<td>Lotdsjhdsduysdsfsfsdfsdfsdfdsfdsfdsfdsfsfsssdweew</td>
+		<td>INR.11000/-</td>
+		</tr>
+		<tr>
+		<td><img src="images/mobile3.jpg"></td>
+		<td>Samsung DUOS</td>
+		<td>Lotdsjhdsduysdsfsfsdfsdfsdfdsfdsfdsfdsfsfsssdweew</td>
+		<td>INR.25000/-</td>
+		</tr>
+		<tr>
+		<td><img src="images/mobile4.jpg"></td>
+		<td>Iphone X</td>
+		<td>Lotdsjhdsduysdsfsfsdfsdfsdfdsfdsfdsfdsfsfsssdweew</td>
+		<td>INR.45000/-</td>
+		</tr>
+		<tr>
+		<td><img src="images/mobile5.jpg"></td>
+		<td>Iphone 5s</td>
+		<td>Lotdsjhdsduysdsfsfsdfsdfsdfdsfdsfdsfdsfsfsssdweew</td>
+		<td>INR.17000/-</td>
+		</tr>
+		</tbody>
+		<tfoot>
+		<tr>
+		<td colspan="3" align="center">No of products</td>
+		<td align="center">5</td>
+		</tfoot>
+		</table>
+	</article>
+	<footer>
+	&copy; copright reserved 2019
+	<a href="home.html"><img src = "images/home.jpg"/>
+		
+	</footer>
+</body>
+</html>

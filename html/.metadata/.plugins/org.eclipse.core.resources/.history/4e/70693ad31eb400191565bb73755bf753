@@ -1,0 +1,28 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>HPortal</title>
+<style>
+header{
+text-align:center;
+background-colr:#4698c8;
+}
+h1{
+font-family:cursive;
+text-shadow:5px 5px black;
+}
+table{
+border-collapse:collapse;
+margin:0px auto;
+}
+th,td{
+padding:10px;
+}
+th{
+background-color:red;
+color:white;
+}
+td{
+background-color:wheat;
+}
+</style>
+</head>

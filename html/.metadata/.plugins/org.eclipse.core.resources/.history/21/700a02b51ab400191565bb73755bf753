@@ -1,0 +1,7 @@
+<%@include file="Meta.jsp"%>
+<html>
+<%@include file="HeadSection.jsp"%>
+<body>
+<%@include file="Header.jsp"%>
+</body>
+</html>

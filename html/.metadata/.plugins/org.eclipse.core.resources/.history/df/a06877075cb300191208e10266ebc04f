@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+
+</script>
+
+</head>
+<body>
+<h1>JSON Demo</h1>
+<hr/>
+<table cellpadding="10" bgcolor="cyan">
+	<tr><td>Name</td>
+	<td id="tname"></td>
+	</tr>
+	<tr><td>salary</td>
+	<td id="tsal"></td>
+	</tr>
+	<tr><td><input type="button" value="populate" onclick="display()"/></td>
+	<td><input type="button" value="clear" onclick="clearData()"/></td>
+	</tr>
+</table>
+</body>
+</html>
